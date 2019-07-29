@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- for emacs: -*- coding: utf-8 -*- -->
+<!-- Apache may like this line in the file .htaccess: AddCharset utf-8 .html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"	 "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><title>SimplicialMDSplines -- splines of mixed degrees and mixed orders of smoothness on simplicial complexes</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../Style/doc.css"/>
+</head>
+<body>
+<table class="buttons">
+  <tr>
+    <td><div><a href="./_cellular__Complex.html">next</a> | previous | <a href="./_cellular__Complex.html">forward</a> | backward | up | top | <a href="./master.html">index</a> | <a href="./toc.html">toc</a> | <a href="http://www.math.uiuc.edu/Macaulay2/">Macaulay2 web site</a></div>
+
+    </td>
+  </tr>
+</table>
+<div><a href="./simplicial_splines.html" title="splines of mixed degrees and mixed orders of smoothness on simplicial complexes">SimplicialMDSplines</a> :: <a href="./simplicial_splines.html" title="splines of mixed degrees and mixed orders of smoothness on simplicial complexes">SimplicialMDSplines</a></div>
+<hr/>
+<div><h1>SimplicialMDSplines -- splines of mixed degrees and mixed orders of smoothness on simplicial complexes</h1>
+<div class="single"><h2>Description</h2>
+<div><div><p>This package provides tools for computing the dimension of smooth piecewise polynomial splines over simplicial complexes. In particular, we consider splines spaces of mixed (or non-uniform) degrees and orders of smoothness.</p>
+</div>
+<div><p>The dimension of uniform degree spline spaces can be computed (or estimated) using the tools of homological algebra developed in the context of splines in the seminal paper of Billera [1]. Building a short exact sequence of chain complexes, [1] showed that the spline space dimension is equal to the dimension of a graded piece of a particular homology module. A modification that improved upon [1] and yielded simpler chain complexes was presented by Schenck and Stillman [2] and used to prove that the dimension formula derived by Schumaker [3] holds in sufficiently high degree. In particular, this demonstrated that the homological algebra approach of the former agrees with the Bernstein–Bezier approach of the latter. These modified chain complexes were further studied, for instance, in [4-6].</p>
+</div>
+<div><p>This package is meant to accompany the report by Toshniwal and Hughes [7] which generalizes the Schenck-Stillman chain complexes to the case of mixed degree splines or non-uniform degree splines. This package has been derived from &lsquo;AlgebraicSplines&rsquo; written by Mike DiPasquale.</p>
+</div>
+<div><p>[1] L.J. Billera, Homology of smooth splines: Generic triangulations and a conjecture of Strang, Trans. Amer. Math. Soc. 310 (1988).<br/>[2] Hal Schenck and Mike Stillman. Local cohomology of bivariate splines, J. Pure Appl. Algebra 117/118 (1997).<br/>[3] L.L. Schumaker, On the Dimension of Spaces Of Piecewise Polynomials in Two Variables, in: Multivariate Approximation Theory, Birkhäuser, Basel, 1979.<br/>[4] A. Geramita and H. Schenck, Fat points, inverse systems, and piecewise polynomial functions, J. of Algebra 204(1) (1998).<br/>[5] Hal Schenck, A spectral sequence for splines, Adv. in Appl. Math. 19 (1997).<br/>[6] B. Mourrain, N. Villamizar, Homological techniques for the analysis of the dimension of triangular spline spaces, J. of Symb. Comp. 50 (2013).<br/>[7] D. Toshniwal, T.J.R. Hughes, Polynomial splines of non-uniform degree on triangulations: Combinatorial bounds on the dimension, in Computer Aided Geometric Design (2019; to appear).</p>
+</div>
+<div><p>We reproduce two examples from [7] in the following. The first example (Example 2, [7]) features a triangulation with two isolated interior vertices.</p>
+</div>
+<table class="examples"><tr><td><pre>i1 : a = 0;b = 20;</pre>
+</td></tr>
+<tr><td><pre>i3 : V = {{0/1,0/1}, {1/1,0/1}, {1/1,1/1}, {0/1,1/1}, {1/4,1/3}, {3/4,2/3}};</pre>
+</td></tr>
+<tr><td><pre>i4 : F = {{0,1,4}, {0,3,4}, {1,2,5}, {1,3,5}, {2,3,5}, {1,3,4}};</pre>
+</td></tr>
+<tr><td><pre>i5 : E = {{0,4}, {1,4}, {3,4}, {1,5}, {2,5}, {3,5}, {1,3}};</pre>
+</td></tr>
+<tr><td><pre>i6 : degD = {3, 3, 0, 1, 0, 2};</pre>
+</td></tr>
+<tr><td><pre>i7 : r = {0, 0, 0, 2, 3, 2, 1};</pre>
+</td></tr>
+<tr><td><pre>i8 : homologyDimensionTable(a,b,{V,F,{E,r},degD})
+
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+o8 = |Degree                   |0|1|2|3|4|5 |6 |7 |8 |9  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19 |20 |
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |H_1(I) (idealsComplex)   |0|0|0|1|5|14|28|47|71|100|134|173|217|266|320|379|443|512|586|665|749|
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |H_0(I) (-------------)   |0|0|0|0|0|0 |0 |0 |0 |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |H_2(C) (cellularComplex) |0|0|0|1|3|6 |10|15|21|28 |36 |45 |55 |66 |78 |91 |105|120|136|153|171|
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |H_1(C) (---------------) |0|0|0|0|0|0 |0 |0 |0 |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |H_0(C) (---------------) |0|0|0|0|0|0 |0 |0 |0 |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |H_2(Q) (splineComplex)   |0|0|0|2|8|20|38|62|92|128|170|218|272|332|398|470|548|632|722|818|920|
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |H_1(Q) (-------------)   |0|0|0|0|0|0 |0 |0 |0 |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |H_0(Q) (-------------)   |0|0|0|0|0|0 |0 |0 |0 |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |dim(S) (splineComplex)   |0|0|0|2|8|20|38|62|92|128|170|218|272|332|398|470|548|632|722|818|920|
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |Eul. ch. (-----------)   |0|0|0|2|8|20|38|62|92|128|170|218|272|332|398|470|548|632|722|818|920|
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+
+     |dim(M) (splineModule)    |0|0|0|2|8|20|38|62|92|128|170|218|272|332|398|470|548|632|722|818|920|
+     +-------------------------+-+-+-+-+-+--+--+--+--+---+---+---+---+---+---+---+---+---+---+---+---+</pre>
+</td></tr>
+</table>
+<div><p>The second example (Example 3, [7]) features a triangulation with 3 interior vertices that share 3 edges between them. Notice that H<sub>0</sub>(I) does not have finite length in the mixed degree setting; nevertheless, the dimension of the spline space stabilizes for <i>m &ge;5</i>.</p>
+</div>
+<table class="examples"><tr><td><pre>i9 : a = 0; b = 20;</pre>
+</td></tr>
+<tr><td><pre>i11 : V = {{-230/389,-1637/7625}, {-557/1706,1460/1447}, {-2109/1532,1114/935}, {1406/383,-1309/412}, {4288/2033,655/139}, {-2497/633,-3158/1011}, {-3515/766,2228/561}};</pre>
+</td></tr>
+<tr><td><pre>i12 : F = {{0,1,2}, {2,4,6}, {0,1,3}, {1,3,4}, {1,2,4}, {0,2,5}, {2,5,6}, {0,3,5}};</pre>
+</td></tr>
+<tr><td><pre>i13 : E = {{0,1}, {1,2}, {0,2}, {2,4}, {2,6}, {1,3}, {0,3}, {1,4}, {2,5}, {0,5}};</pre>
+</td></tr>
+<tr><td><pre>i14 : degD = {0, 1, 1, 1, 1, 1, 1, 1};</pre>
+</td></tr>
+<tr><td><pre>i15 : r = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};</pre>
+</td></tr>
+<tr><td><pre>i16 : homologyDimensionTable(a,b,{V,F,{E,r},degD})
+
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+o16 = |Degree                   |0|1|2|3|4 |5 |6 |7  |8  |9  |10 |11 |12 |13 |14 |15 |16 |17 |18  |19  |20  |
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |H_1(I) (idealsComplex)   |0|0|0|1|9 |24|47|77 |114|158|209|267|332|404|483|569|662|762|869 |983 |1104|
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |H_0(I) (-------------)   |0|0|3|6|6 |6 |7 |8  |9  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19  |20  |21  |
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |H_2(C) (cellularComplex) |0|1|3|6|10|15|21|28 |36 |45 |55 |66 |78 |91 |105|120|136|153|171 |190 |210 |
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |H_1(C) (---------------) |0|0|0|0|0 |0 |0 |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0   |0   |0   |
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |H_0(C) (---------------) |1|2|3|4|5 |6 |7 |8  |9  |10 |11 |12 |13 |14 |15 |16 |17 |18 |19  |20  |21  |
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |H_2(Q) (splineComplex)   |0|1|3|7|19|39|68|105|150|203|264|333|410|495|588|689|798|915|1040|1173|1314|
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |H_1(Q) (-------------)   |0|0|0|2|1 |0 |0 |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0   |0   |0   |
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |H_0(Q) (-------------)   |1|2|0|0|0 |0 |0 |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0  |0   |0   |0   |
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |dim(S) (splineComplex)   |0|1|3|7|19|39|68|105|150|203|264|333|410|495|588|689|798|915|1040|1173|1314|
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |Eul. ch. (-----------)   |1|3|3|5|18|39|68|105|150|203|264|333|410|495|588|689|798|915|1040|1173|1314|
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+
+      |dim(M) (splineModule)    |0|1|3|7|19|39|68|105|150|203|264|333|410|495|588|689|798|915|1040|1173|1314|
+      +-------------------------+-+-+-+-+--+--+--+---+---+---+---+---+---+---+---+---+---+---+----+----+----+</pre>
+</td></tr>
+</table>
+</div>
+</div>
+<div class="single"><h2>Authors</h2>
+<ul><li><div class="single"><a href="http://illinois.edu/~dipasqu1">Mike DiPasquale</a><span> &lt;<a href="mailto:midipasq@gmail.com">midipasq@gmail.com</a>></span></div>
+</li>
+<li><div class="single"><a href="http://cs.hood.edu/~whieldon">Gwyn Whieldon</a><span> &lt;<a href="mailto:whieldon@hood.edu">whieldon@hood.edu</a>></span></div>
+</li>
+<li><div class="single"><a href="http://illinois.edu/~emduart2">Eliana Duarte</a><span> &lt;<a href="mailto:emduart2@illinois.edu">emduart2@illinois.edu</a>></span></div>
+</li>
+<li><div class="single"><a href="http://www4.ncsu.edu/~dibernst">Daniel Irving Bernstein</a><span> &lt;<a href="mailto:dibernst@ncsu.edu">dibernst@ncsu.edu</a>></span></div>
+</li>
+<li><div class="single"><a href="http://dtoshniwal.github.io">Deepesh Toshniwal</a><span> &lt;<a href="mailto:deepesh@utexas.edu">deepesh@utexas.edu</a>></span></div>
+</li>
+</ul>
+</div>
+<div class="single"><h2>Version</h2>
+This documentation describes version <b>0.1.0</b> of SimplicialMDSplines.</div>
+<div class="single"><h2>Source code</h2>
+The source code from which this documentation is derived is in the file <a href="../Macaulay2/SimplicialMDSplines.m2">SimplicialMDSplines.m2</a>.</div>
+<div class="single"><h2>Exports</h2>
+<div class="exports"><ul><li><div class="single">Functions and commands<ul><li><span><a href="./_cellular__Complex.html" title="build the cellular chain complex of the triangulation relative to its boundary">cellularComplex</a> -- build the cellular chain complex of the triangulation relative to its boundary</span></li>
+<li><span><tt>hilbertComparisonTable</tt> (missing documentation<!-- tag: hilbertComparisonTable -->)</span></li>
+<li><span><a href="./_homology__Dimension__Table.html" title="output dimensions of all homology modules in the exact sequence of chain complexes from Toshniwal and Hughes [7]">homologyDimensionTable</a> -- output dimensions of all homology modules in the exact sequence of chain complexes from Toshniwal and Hughes [7]</span></li>
+<li><span><a href="./_ideals__Complex.html" title="build the ideals complex for the specified mixed smoothness and degrees">idealsComplex</a> -- build the ideals complex for the specified mixed smoothness and degrees</span></li>
+<li><span><tt>postulationNumber</tt> (missing documentation<!-- tag: postulationNumber -->)</span></li>
+<li><span><a href="./_spline__Complex.html" title="build the spline complex for the given mixed smoothness and degrees">splineComplex</a> -- build the spline complex for the given mixed smoothness and degrees</span></li>
+<li><span><tt>splineDimensionTable</tt> (missing documentation<!-- tag: splineDimensionTable -->)</span></li>
+<li><span><a href="./_spline__Matrix.html" title="compute matrix whose kernel is the module of mixed degree splines on the triangulation $\mathcal{T}$">splineMatrix</a> -- compute matrix whose kernel is the module of mixed degree splines on the triangulation $\mathcal{T}$</span></li>
+<li><span><a href="./_spline__Module.html" title="compute the module of mixed degree splines on triangulation $\mathcal{T}$">splineModule</a> -- compute the module of mixed degree splines on triangulation $\mathcal{T}$</span></li>
+</ul>
+</div>
+</li>
+<li><div class="single">Symbols<ul><li><span><tt>RingType</tt> (missing documentation<!-- tag: RingType -->)</span></li>
+<li><span>BaseRing, see <span><a href="./_spline__Matrix.html" title="compute matrix whose kernel is the module of mixed degree splines on the triangulation $\mathcal{T}$">splineMatrix</a> -- compute matrix whose kernel is the module of mixed degree splines on the triangulation $\mathcal{T}$</span></span></li>
+<li><span>Homogenize, see <span><a href="./_spline__Matrix.html" title="compute matrix whose kernel is the module of mixed degree splines on the triangulation $\mathcal{T}$">splineMatrix</a> -- compute matrix whose kernel is the module of mixed degree splines on the triangulation $\mathcal{T}$</span></span></li>
+<li><span>VariableName, see <span><a href="./_spline__Matrix.html" title="compute matrix whose kernel is the module of mixed degree splines on the triangulation $\mathcal{T}$">splineMatrix</a> -- compute matrix whose kernel is the module of mixed degree splines on the triangulation $\mathcal{T}$</span></span></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
+

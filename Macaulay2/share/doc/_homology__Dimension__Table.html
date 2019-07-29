@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- for emacs: -*- coding: utf-8 -*- -->
+<!-- Apache may like this line in the file .htaccess: AddCharset utf-8 .html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"	 "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><title>homologyDimensionTable -- output dimensions of all homology modules in the exact sequence of chain complexes from Toshniwal and Hughes [7]</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../Style/doc.css"/>
+</head>
+<body>
+<table class="buttons">
+  <tr>
+    <td><div><a href="./_ideals__Complex.html">next</a> | <a href="./_hilbert__Comparison__Table.html">previous</a> | <a href="./_ideals__Complex.html">forward</a> | <a href="./_hilbert__Comparison__Table.html">backward</a> | up | <a href="./simplicial_splines.html">top</a> | <a href="./master.html">index</a> | <a href="./toc.html">toc</a> | <a href="http://www.math.uiuc.edu/Macaulay2/">Macaulay2 web site</a></div>
+
+    </td>
+  </tr>
+</table>
+<div><a href="./simplicial_splines.html" title="splines of mixed degrees and mixed orders of smoothness on simplicial complexes">SimplicialMDSplines</a> :: <a href="./_homology__Dimension__Table.html" title="output dimensions of all homology modules in the exact sequence of chain complexes from Toshniwal and Hughes [7]">homologyDimensionTable</a></div>
+<hr/>
+<div><h1>homologyDimensionTable -- output dimensions of all homology modules in the exact sequence of chain complexes from Toshniwal and Hughes [7]</h1>
+<div class="single"><h2>Synopsis</h2>
+<ul><li><dl class="element"><dt>Usage:</dt><dd><tt>homologyDimensionTable(a, b, L) -- (ZZ, ZZ, List)</tt></dd></dl>
+</li>
+<li><div class="single">Inputs:<ul><li><span><tt>a</tt>, <span>an <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Z__Z.html">integer</a></span>, value of smallest degree for which dimension is to be computed</span></li>
+<li><span><tt>b</tt>, <span>an <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Z__Z.html">integer</a></span>, value of largest degree for which dimension is to be computed</span></li>
+<li><span><tt>L</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list V, F, r, degD or V, F, Er, degD</span></li>
+<li><span><tt>V</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list of coordinates of vertices of <i>T</i></span></li>
+<li><span><tt>F</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list of facets of <i>T</i> (each facet is recorded as a list of indices of vertices taken from V)</span></li>
+<li><span><tt>r</tt>, <span>an <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Z__Z.html">integer</a></span>, value of global smoothness of splines</span></li>
+<li><span><tt>degD</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Symbol.html">symbol</a></span>, value or list of degree deficits <i>&Delta;m(&sigma;)</i> on facets <i>&sigma;</i></span></li>
+<li><span><tt>Er</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list containing list of comdim1 interior faces and an integer (or list) specifying orders of smoothness</span></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="single"><h2>Description</h2>
+<div><div><p>This displays lists containing dimensions of all relevant homology modules used by Toshniwal and Hughes [7] for estimating the spline module&rsquo;s Hilbert series.</p>
+</div>
+<table class="examples"><tr><td><pre>i1 : V = {{0,0},{1,0},{1,1},{-1,1},{-2,-1},{0,-1}};-- the coordinates of vertices</pre>
+</td></tr>
+<tr><td><pre>i2 : F = {{0,2,1},{0,2,3},{0,3,4},{0,4,5},{0,1,5}};  -- a list of facets (pure complex)</pre>
+</td></tr>
+<tr><td><pre>i3 : E = {{0,1},{0,2},{0,3},{0,4},{0,5}};   -- list of edges</pre>
+</td></tr>
+<tr><td><pre>i4 : r = {1, 2, 3, 4, 5};   -- orders of smoothness across edges</pre>
+</td></tr>
+<tr><td><pre>i5 : degD = {0, 1, 2, 0, 0};  -- degree deficits on facets</pre>
+</td></tr>
+<tr><td><pre>i6 : homologyDimensionTable(1, 5, {V,F,{E,r},degD})
+
+     +-------------------------+-+-+-+-+--+
+o6 = |Degree                   |1|2|3|4|5 |
+     +-------------------------+-+-+-+-+--+
+     |H_1(I) (idealsComplex)   |0|0|0|0|3 |
+     +-------------------------+-+-+-+-+--+
+     |H_0(I) (-------------)   |0|0|0|0|0 |
+     +-------------------------+-+-+-+-+--+
+     |H_2(C) (cellularComplex) |0|1|3|6|10|
+     +-------------------------+-+-+-+-+--+
+     |H_1(C) (---------------) |0|0|0|0|0 |
+     +-------------------------+-+-+-+-+--+
+     |H_0(C) (---------------) |0|0|0|0|0 |
+     +-------------------------+-+-+-+-+--+
+     |H_2(Q) (splineComplex)   |0|1|3|6|13|
+     +-------------------------+-+-+-+-+--+
+     |H_1(Q) (-------------)   |0|0|0|0|0 |
+     +-------------------------+-+-+-+-+--+
+     |H_0(Q) (-------------)   |0|0|0|0|0 |
+     +-------------------------+-+-+-+-+--+
+     |dim(S) (splineComplex)   |0|1|3|6|13|
+     +-------------------------+-+-+-+-+--+
+     |Eul. ch. (-----------)   |0|1|3|6|13|
+     +-------------------------+-+-+-+-+--+
+     |dim(M) (splineModule)    |0|1|3|6|13|
+     +-------------------------+-+-+-+-+--+</pre>
+</td></tr>
+</table>
+</div>
+</div>
+<div class="waystouse"><h2>Ways to use <tt>homologyDimensionTable</tt> :</h2>
+<ul><li>homologyDimensionTable(ZZ,ZZ,List)</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
+

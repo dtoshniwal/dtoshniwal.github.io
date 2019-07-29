@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- for emacs: -*- coding: utf-8 -*- -->
+<!-- Apache may like this line in the file .htaccess: AddCharset utf-8 .html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"	 "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><title>splineModule -- compute the module of mixed degree splines on triangulation $\mathcal{T}$</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../Style/doc.css"/>
+</head>
+<body>
+<table class="buttons">
+  <tr>
+    <td><div>next | <a href="./_spline__Matrix.html">previous</a> | forward | <a href="./_spline__Matrix.html">backward</a> | up | <a href="./simplicial_splines.html">top</a> | <a href="./master.html">index</a> | <a href="./toc.html">toc</a> | <a href="http://www.math.uiuc.edu/Macaulay2/">Macaulay2 web site</a></div>
+
+    </td>
+  </tr>
+</table>
+<div><a href="./simplicial_splines.html" title="splines of mixed degrees and mixed orders of smoothness on simplicial complexes">SimplicialMDSplines</a> :: <a href="./_spline__Module.html" title="compute the module of mixed degree splines on triangulation $\mathcal{T}$">splineModule</a></div>
+<hr/>
+<div><h1>splineModule -- compute the module of mixed degree splines on triangulation $\mathcal{T}$</h1>
+<div class="single"><h2>Synopsis</h2>
+<ul><li><dl class="element"><dt>Usage:</dt><dd><tt>S = splineModule(V,F,r,degD) -- (List,List,ZZ,ZZ or List)</tt></dd><dd><tt>S = splineModule(V,F,Er,degD) -- (List,List,List,ZZ or List)</tt></dd></dl>
+</li>
+<li><div class="single">Inputs:<ul><li><span><tt>V</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list of coordinates of vertices of <i>T</i></span></li>
+<li><span><tt>F</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list of facets of <i>T</i> (each facet is recorded as a list of indices of vertices taken from V)</span></li>
+<li><span><tt>r</tt>, <span>an <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Z__Z.html">integer</a></span>, value of global smoothness of splines</span></li>
+<li><span><tt>degD</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Symbol.html">symbol</a></span>, value or list of degree deficits <i>&Delta;m(&sigma;)</i> on facets <i>&sigma;</i></span></li>
+<li><span><tt>Er</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list containing list of comdim1 interior faces and an integer (or list) specifying orders of smoothness</span></li>
+</ul>
+</div>
+</li>
+<li><div class="single"><a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/_using_spfunctions_spwith_spoptional_spinputs.html">Optional inputs</a>:<ul><li><span><tt>BaseRing => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Ring.html">ring</a></span></span></span></li>
+<li><span><tt>Homogenize => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Boolean.html">Boolean value</a></span></span></span></li>
+<li><span><tt>CoefficientRing => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Ring.html">ring</a></span></span></span></li>
+<li><span><tt>VariableName => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Symbol.html">symbol</a></span>, </span></span></li>
+</ul>
+</div>
+</li>
+<li><div class="single">Outputs:<ul><li><span><tt>S</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Matrix.html">matrix</a></span>, resulting matrix whose kernel is the spline module</span></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="single"><h2>Description</h2>
+<div><div><p>This creates the basic spline module.</p>
+</div>
+<table class="examples"><tr><td><pre>i1 : V = {{0,0},{1,0},{1,1},{-1,1},{-2,-1},{0,-1}};-- the coordinates of vertices</pre>
+</td></tr>
+<tr><td><pre>i2 : F = {{0,2,1},{0,2,3},{0,3,4},{0,4,5},{0,1,5}};  -- a list of facets (pure complex)</pre>
+</td></tr>
+<tr><td><pre>i3 : r = 2; -- smoothness</pre>
+</td></tr>
+<tr><td><pre>i4 : degD = 0; -- degree deficits on facets</pre>
+</td></tr>
+<tr><td><pre>i5 : splineModule(V,F,r,degD)
+
+o5 = image | 1 -6t_1^3                            -16t_0t_1^3                        18t_0t_1^3-12t_1^4                        72t_0t_1^3-39t_1^4                       |
+           | 1 3t_0^3-9t_0^2t_1+9t_0t_1^2-9t_1^3  t_0^4-6t_0^2t_1^2-8t_0t_1^3-3t_1^4 3t_0^3t_1-9t_0^2t_1^2+27t_0t_1^3-15t_1^4  3t_0^3t_1-9t_0^2t_1^2+81t_0t_1^3-42t_1^4 |
+           | 1 4t_0^3-6t_0^2t_1+12t_0t_1^2-8t_1^3 0                                  2t_0^3t_1-12t_0^2t_1^2+24t_0t_1^3-16t_1^4 t_0^4-24t_0^2t_1^2+64t_0t_1^3-48t_1^4    |
+           | 1 3t_0^3                             0                                  0                                         0                                        |
+           | 1 0                                  0                                  0                                         0                                        |
+
+                                                         5
+o5 : QQ[t , t , t ]-module, submodule of (QQ[t , t , t ])
+         0   1   2                            0   1   2</pre>
+</td></tr>
+</table>
+<div><p>It is possible to specify mixed orders of smoothness.</p>
+</div>
+<table class="examples"><tr><td><pre>i6 : V = {{0,0},{1,0},{1,1},{-1,1},{-2,-1},{0,-1}};-- the coordinates of vertices</pre>
+</td></tr>
+<tr><td><pre>i7 : F = {{0,2,1},{0,2,3},{0,3,4},{0,4,5},{0,1,5}};  -- a list of facets (pure complex)</pre>
+</td></tr>
+<tr><td><pre>i8 : E = {{0,1},{0,2},{0,3},{0,4},{0,5}};   -- list of edges</pre>
+</td></tr>
+<tr><td><pre>i9 : r = {1, 2, 3, 4, 5};   -- orders of smoothness across edges</pre>
+</td></tr>
+<tr><td><pre>i10 : degD = 0;   -- degree deficits on facets</pre>
+</td></tr>
+<tr><td><pre>i11 : splineModule(V,F,{E,r},degD)
+
+o11 = image | 1 24t_0^2t_1^2-16t_0t_1^3+8t_1^4              t_0^3t_1^2-3t_0^2t_1^3+3t_0t_1^4-t_1^5 270t_0^2t_1^3-135t_0t_1^4+72t_1^5                             -1320t_0^2t_1^4+672t_0t_1^5-300t_1^6                          |
+            | 1 t_0^4+4t_0^3t_1+6t_0^2t_1^2+4t_0t_1^3+t_1^4 0                                      90t_0^3t_1^2+135t_0t_1^4-18t_1^5                              -560t_0^3t_1^3+360t_0^2t_1^4-1008t_0t_1^5+260t_1^6            |
+            | 1 0                                           0                                      t_0^5-10t_0^4t_1+40t_0^3t_1^2-80t_0^2t_1^3+80t_0t_1^4-32t_1^5 60t_0^4t_1^2-320t_0^3t_1^3+720t_0^2t_1^4-768t_0t_1^5+320t_1^6 |
+            | 1 0                                           0                                      0                                                             t_0^6                                                         |
+            | 1 0                                           0                                      0                                                             0                                                             |
+
+                                                          5
+o11 : QQ[t , t , t ]-module, submodule of (QQ[t , t , t ])
+          0   1   2                            0   1   2</pre>
+</td></tr>
+</table>
+<div><p>It is possible to specify mixed polynomial degrees as well by specifying the degree deficits on each maximal face with respect to a maximal degree.</p>
+</div>
+<table class="examples"><tr><td><pre>i12 : V = {{0,0},{1,0},{1,1},{-1,1},{-2,-1},{0,-1}};-- the coordinates of vertices</pre>
+</td></tr>
+<tr><td><pre>i13 : F = {{0,2,1},{0,2,3},{0,3,4},{0,4,5},{0,1,5}};  -- a list of facets (pure complex)</pre>
+</td></tr>
+<tr><td><pre>i14 : E = {{0,1},{0,2},{0,3},{0,4},{0,5}};   -- list of edges</pre>
+</td></tr>
+<tr><td><pre>i15 : r = {1, 2, 3, 4, 5};   -- orders of smoothness across edges</pre>
+</td></tr>
+<tr><td><pre>i16 : degD = {0, 1, 2, 0, 0};  -- degree deficits on facets</pre>
+</td></tr>
+<tr><td><pre>i17 : splineModule(V,F,{E,r},degD)
+
+o17 = image {0} | t_2^2 t_0^3t_1^2-3t_0^2t_1^3+3t_0t_1^4-t_1^5 24t_0^2t_1^2t_2-16t_0t_1^3t_2+8t_1^4t_2     t_0^5-10t_0^4t_1+50t_0^2t_1^3-65t_0t_1^4+24t_1^5              0                                                                   |
+            {1} | t_2   0                                      t_0^4+4t_0^3t_1+6t_0^2t_1^2+4t_0t_1^3+t_1^4 0                                                             0                                                                   |
+            {2} | 1     0                                      0                                           0                                                             0                                                                   |
+            {0} | t_2^2 0                                      0                                           t_0^5-10t_0^4t_1+40t_0^3t_1^2-80t_0^2t_1^3+80t_0t_1^4-32t_1^5 t_0^6-60t_0^4t_1^2+320t_0^3t_1^3-720t_0^2t_1^4+768t_0t_1^5-320t_1^6 |
+            {0} | t_2^2 0                                      0                                           t_0^5-10t_0^4t_1+40t_0^3t_1^2-80t_0^2t_1^3+80t_0t_1^4-32t_1^5 -60t_0^4t_1^2+320t_0^3t_1^3-720t_0^2t_1^4+768t_0t_1^5-320t_1^6      |
+
+                                                          5
+o17 : QQ[t , t , t ]-module, submodule of (QQ[t , t , t ])
+          0   1   2                            0   1   2</pre>
+</td></tr>
+</table>
+</div>
+</div>
+<div class="waystouse"><h2>Ways to use <tt>splineModule</tt> :</h2>
+<ul><li>splineModule(List,List,List,List)</li>
+<li>splineModule(List,List,List,ZZ)</li>
+<li>splineModule(List,List,ZZ,List)</li>
+<li>splineModule(List,List,ZZ,ZZ)</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
+

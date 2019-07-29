@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- for emacs: -*- coding: utf-8 -*- -->
+<!-- Apache may like this line in the file .htaccess: AddCharset utf-8 .html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"	 "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><title>splineComplex -- build the spline complex for the given mixed smoothness and degrees</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../Style/doc.css"/>
+</head>
+<body>
+<table class="buttons">
+  <tr>
+    <td><div><a href="./_spline__Dimension__Table.html">next</a> | <a href="./___Ring__Type.html">previous</a> | <a href="./_spline__Dimension__Table.html">forward</a> | <a href="./___Ring__Type.html">backward</a> | up | <a href="./simplicial_splines.html">top</a> | <a href="./master.html">index</a> | <a href="./toc.html">toc</a> | <a href="http://www.math.uiuc.edu/Macaulay2/">Macaulay2 web site</a></div>
+
+    </td>
+  </tr>
+</table>
+<div><a href="./simplicial_splines.html" title="splines of mixed degrees and mixed orders of smoothness on simplicial complexes">SimplicialMDSplines</a> :: <a href="./_spline__Complex.html" title="build the spline complex for the given mixed smoothness and degrees">splineComplex</a></div>
+<hr/>
+<div><h1>splineComplex -- build the spline complex for the given mixed smoothness and degrees</h1>
+<div class="single"><h2>Synopsis</h2>
+<ul><li><dl class="element"><dt>Usage:</dt><dd><tt>Q = splineComplex(V,F,r,degD) -- (List,List,ZZ,ZZ or List)</tt></dd><dd><tt>Q = splineComplex(V,F,Er,degD) -- (List,List,List,ZZ or List)</tt></dd></dl>
+</li>
+<li><div class="single">Inputs:<ul><li><span><tt>V</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list of coordinates of vertices of <i>T</i></span></li>
+<li><span><tt>F</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list of facets of <i>T</i> (each facet is recorded as a list of indices of vertices taken from V)</span></li>
+<li><span><tt>r</tt>, <span>an <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Z__Z.html">integer</a></span>, value of global smoothness of splines</span></li>
+<li><span><tt>degD</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Symbol.html">symbol</a></span>, value or list of degree deficits <i>&Delta;m(&sigma;)</i> on facets <i>&sigma;</i></span></li>
+<li><span><tt>Er</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list containing list of comdim1 interior faces and an integer (or list) specifying orders of smoothness</span></li>
+</ul>
+</div>
+</li>
+<li><div class="single"><a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/_using_spfunctions_spwith_spoptional_spinputs.html">Optional inputs</a>:<ul><li><span><tt>BaseRing => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Ring.html">ring</a></span></span></span></li>
+<li><span><tt>Homogenize => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Boolean.html">Boolean value</a></span></span></span></li>
+<li><span><tt>CoefficientRing => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Ring.html">ring</a></span></span></span></li>
+<li><span><tt>VariableName => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Symbol.html">symbol</a></span></span></span></li>
+</ul>
+</div>
+</li>
+<li><div class="single">Outputs:<ul><li><span><tt>Q</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Chain__Complex.html">chain complex</a></span>, chain complex of quotients; top homology is the spline module</span></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="single"><h2>Description</h2>
+<div><div><p>This builds the generalization of the complex of splines from Billera-Schenck-Stillman to mixed degrees (see Toshniwal and Hughes [7]).</p>
+</div>
+<table class="examples"><tr><td><pre>i1 : V = {{0,0},{1,0},{1,1},{-1,1},{-2,-1},{0,-1}};-- the coordinates of vertices</pre>
+</td></tr>
+<tr><td><pre>i2 : F = {{0,2,1},{0,2,3},{0,3,4},{0,4,5},{0,1,5}};  -- a list of facets (pure complex)</pre>
+</td></tr>
+<tr><td><pre>i3 : E = {{0,1},{0,2},{0,3},{0,4},{0,5}};   -- list of edges</pre>
+</td></tr>
+<tr><td><pre>i4 : r = {1, 2, 3, 4, 5};   -- orders of smoothness across edges</pre>
+</td></tr>
+<tr><td><pre>i5 : degD = {0, 1, 2, 0, 0};  -- degree deficits on facets</pre>
+</td></tr>
+<tr><td><pre>i6 : splineComplex(V,F,{E,r},degD)
+
+o6 = subquotient (| 1 |, | t_0^3-3t_0^2t_1+3t_0t_1^2-t_1^3 t_1^2 t_0^4t_2+4t_0^3t_1t_2+6t_0^2t_1^2t_2+4t_0t_1^3t_2+t_1^4t_2 t_0^5-10t_0^4t_1+40t_0^3t_1^2-80t_0^2t_1^3+80t_0t_1^4-32t_1^5 t_0^6 |) &lt;-- subquotient (| 1 0 0   0 0 |, | t_0^3-3t_0^2t_1+3t_0t_1^2-t_1^3 0     0                                                          0                                                             0     |) &lt;-- image | 1 0   0     0 0 |
+                                                                                                                                                                                                                    | 0 1 0   0 0 |  | 0                               t_1^2 0                                                          0                                                             0     |            | 0 t_2 0     0 0 |
+     0                                                                                                                                                                                                              | 0 0 t_2 0 0 |  | 0                               0     t_0^4t_2+4t_0^3t_1t_2+6t_0^2t_1^2t_2+4t_0t_1^3t_2+t_1^4t_2 0                                                             0     |            | 0 0   t_2^2 0 0 |
+                                                                                                                                                                                                                    | 0 0 0   1 0 |  | 0                               0     0                                                          t_0^5-10t_0^4t_1+40t_0^3t_1^2-80t_0^2t_1^3+80t_0t_1^4-32t_1^5 0     |            | 0 0   0     1 0 |
+                                                                                                                                                                                                                    | 0 0 0   0 1 |  | 0                               0     0                                                          0                                                             t_0^6 |            | 0 0   0     0 1 |
+                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                       1                                                                                                                                                                                                           2
+
+o6 : ChainComplex</pre>
+</td></tr>
+</table>
+</div>
+</div>
+<div class="waystouse"><h2>Ways to use <tt>splineComplex</tt> :</h2>
+<ul><li>splineComplex(List,List,List,List)</li>
+<li>splineComplex(List,List,List,ZZ)</li>
+<li>splineComplex(List,List,ZZ,List)</li>
+<li>splineComplex(List,List,ZZ,ZZ)</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
+

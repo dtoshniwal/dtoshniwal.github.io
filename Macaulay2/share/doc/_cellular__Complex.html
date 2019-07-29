@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>  <!-- for emacs: -*- coding: utf-8 -*- -->
+<!-- Apache may like this line in the file .htaccess: AddCharset utf-8 .html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"	 "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head><title>cellularComplex -- build the cellular chain complex of the triangulation relative to its boundary</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="../Style/doc.css"/>
+</head>
+<body>
+<table class="buttons">
+  <tr>
+    <td><div><a href="./_hilbert__Comparison__Table.html">next</a> | <a href="./simplicial_splines.html">previous</a> | <a href="./_hilbert__Comparison__Table.html">forward</a> | <a href="./simplicial_splines.html">backward</a> | up | <a href="./simplicial_splines.html">top</a> | <a href="./master.html">index</a> | <a href="./toc.html">toc</a> | <a href="http://www.math.uiuc.edu/Macaulay2/">Macaulay2 web site</a></div>
+
+    </td>
+  </tr>
+</table>
+<div><a href="./simplicial_splines.html" title="splines of mixed degrees and mixed orders of smoothness on simplicial complexes">SimplicialMDSplines</a> :: <a href="./_cellular__Complex.html" title="build the cellular chain complex of the triangulation relative to its boundary">cellularComplex</a></div>
+<hr/>
+<div><h1>cellularComplex -- build the cellular chain complex of the triangulation relative to its boundary</h1>
+<div class="single"><h2>Synopsis</h2>
+<ul><li><dl class="element"><dt>Usage:</dt><dd><tt>C = cellularComplex(F,degD) -- (List,ZZ or List)</tt></dd></dl>
+</li>
+<li><div class="single">Inputs:<ul><li><span><tt>F</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___List.html">list</a></span>, list of facets of <i>T</i> (each facet is recorded as a list of indices of vertices taken from V)</span></li>
+<li><span><tt>degD</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Symbol.html">symbol</a></span>, value or list of degree deficits <i>&Delta;m(&sigma;)</i> on facets <i>&sigma;</i></span></li>
+</ul>
+</div>
+</li>
+<li><div class="single"><a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/_using_spfunctions_spwith_spoptional_spinputs.html">Optional inputs</a>:<ul><li><span><tt>BaseRing => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Ring.html">ring</a></span></span></span></li>
+<li><span><tt>Homogenize => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Boolean.html">Boolean value</a></span></span></span></li>
+<li><span><tt>CoefficientRing => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Ring.html">ring</a></span></span></span></li>
+<li><span><tt>VariableName => </tt><span><span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Symbol.html">symbol</a></span>, </span></span></li>
+</ul>
+</div>
+</li>
+<li><div class="single">Outputs:<ul><li><span><tt>C</tt>, <span>a <a href="file:///Applications/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html/___Chain__Complex.html">chain complex</a></span>, cellular chain complex of the triangulation relative to its boundary</span></li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="single"><h2>Description</h2>
+<div><div><p>This creates the mixed degree cellular complex from Toshniwal and Hughes [7].</p>
+</div>
+<table class="examples"><tr><td><pre>i1 : V = {{0,0},{1,0},{1,1},{-1,1},{-2,-1},{0,-1}};-- the coordinates of vertices</pre>
+</td></tr>
+<tr><td><pre>i2 : F = {{0,2,1},{0,2,3},{0,3,4},{0,4,5},{0,1,5}};  -- a list of facets (pure complex)</pre>
+</td></tr>
+<tr><td><pre>i3 : E = {{0,1},{0,2},{0,3},{0,4},{0,5}};   -- list of edges</pre>
+</td></tr>
+<tr><td><pre>i4 : degD = {0, 1, 2, 0, 0};  -- degree deficits on facets</pre>
+</td></tr>
+<tr><td><pre>i5 : cellularComplex(F,degD)
+
+o5 = image | 1 | &lt;-- image | 1 0 0   0 0 | &lt;-- image | 1 0   0     0 0 |
+                           | 0 1 0   0 0 |           | 0 t_2 0     0 0 |
+     0                     | 0 0 t_2 0 0 |           | 0 0   t_2^2 0 0 |
+                           | 0 0 0   1 0 |           | 0 0   0     1 0 |
+                           | 0 0 0   0 1 |           | 0 0   0     0 1 |
+                                                
+                     1                         2
+
+o5 : ChainComplex</pre>
+</td></tr>
+</table>
+</div>
+</div>
+<div class="waystouse"><h2>Ways to use <tt>cellularComplex</tt> :</h2>
+<ul><li>cellularComplex(List,List)</li>
+<li>cellularComplex(List,ZZ)</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
+
