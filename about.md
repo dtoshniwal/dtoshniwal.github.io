@@ -9,6 +9,8 @@ title: About
 <span style="font-weight:bold">Ph.D., Computational Science, Engineering and
   Mathematics</span>, May 2019
 <br>
+Advisor: Thomas J. R. Hughes
+<br>
 The University of Texas at Austin, USA
 
 <span style="font-weight:bold">M.S., Computational Science, Engineering and
@@ -17,6 +19,8 @@ The University of Texas at Austin, USA
 The University of Texas at Austin, USA
 
 <span style="font-weight:bold">M.Sc. (<i> Cum Laude</i>), Marine Technology</span>, August 2012
+<br>
+Advisors: Marc I. Gerritsma and Rene H. M. Huijsmans
 <br>
 Delft University of Technology, The Netherlands
 
