@@ -14,8 +14,7 @@ title: Research
 D. Toshniwal, H. Speleers, R. Hiemstra, C. Manni and T.J.R. Hughes.
 <br>
 Computer Aided Geometric Design (accepted), 2019.
-<!--[paper](https://www.sciencedirect.com/science/article/pii/S0167839619300664),
-[Macaulay2 package](https://dtoshniwal.github.io/Macaulay2/share/doc/simplicial_splines.html)-->
+[paper](https://doi.org/10.1016/j.cagd.2019.101792)
 
 * <i>Polynomial splines of non-uniform degree on triangulations: Combinatorial
   bounds on the dimension.</i>
