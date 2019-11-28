@@ -10,11 +10,19 @@ title: Research
 
 <h2 class="message" align="center">Publications</h2>
 
+
+* <i> Seamless integration of design and Kirchhoff-Love shell analysis using analysis-suitable unstructured T-splines</i>
+H. Casquero, X. Wei, D. Toshniwal, A. Li, T.J.R. Hughes, J. Kiendl and Y.J. Zhang.
+<br>
+Computer Methods in Applied Mechanics and Engineering (accepted), 2019.
+
+
 * <i>Multi-degree B-splines: Algorithmic computation and properties.</i>
 D. Toshniwal, H. Speleers, R. Hiemstra, C. Manni and T.J.R. Hughes.
 <br>
-Computer Aided Geometric Design (accepted), 2019.
-[paper](https://doi.org/10.1016/j.cagd.2019.101792)
+Computer Aided Geometric Design (in press), 2020.
+[paper](https://authors.elsevier.com/a/1a64gcAOqupwL)
+<!--https://doi.org/10.1016/j.cagd.2019.101792)-->
 
 * <i>Polynomial splines of non-uniform degree on triangulations: Combinatorial
   bounds on the dimension.</i>
