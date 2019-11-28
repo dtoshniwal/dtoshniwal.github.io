@@ -11,7 +11,7 @@ title: Research
 <h2 class="message" align="center">Publications</h2>
 
 
-* <i> Seamless integration of design and Kirchhoff-Love shell analysis using analysis-suitable unstructured T-splines</i>
+* <i> Seamless integration of design and Kirchhoff-Love shell analysis using analysis-suitable unstructured T-splines.</i>
 H. Casquero, X. Wei, D. Toshniwal, A. Li, T.J.R. Hughes, J. Kiendl and Y.J. Zhang.
 <br>
 Computer Methods in Applied Mechanics and Engineering (accepted), 2019.
