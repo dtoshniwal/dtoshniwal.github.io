@@ -10,17 +10,22 @@ title: Research
 
 <h2 class="message" align="center">Publications</h2>
 
+* <i>A Tchebycheffian extension of multi-degree B-splines: Algorithmic computation and properties.</i>
+R.R. Hiemstra, T.J.R. Hughes, C. Manni, H. Speleers and D. Toshniwal.
+<br>
+SIAM Journal on Numerical Analysis (accepted), 2020.
+[paper](https://arxiv.org/abs/2001.07967)
 
 * <i> Seamless integration of design and Kirchhoff-Love shell analysis using analysis-suitable unstructured T-splines.</i>
 H. Casquero, X. Wei, D. Toshniwal, A. Li, T.J.R. Hughes, J. Kiendl and Y.J. Zhang.
 <br>
-Computer Methods in Applied Mechanics and Engineering (accepted), 2019.
-
+Computer Methods in Applied Mechanics and Engineering, 360, Article 112765, 2020.
+[paper](https://www.sciencedirect.com/science/article/pii/S0045782519306577)
 
 * <i>Multi-degree B-splines: Algorithmic computation and properties.</i>
 D. Toshniwal, H. Speleers, R. Hiemstra, C. Manni and T.J.R. Hughes.
 <br>
-Computer Aided Geometric Design (in press), 2020.
+Computer Aided Geometric Design, 76, Article 101792, 2020.
 [paper](https://authors.elsevier.com/a/1a64gcAOqupwL)
 <!--https://doi.org/10.1016/j.cagd.2019.101792)-->
 
@@ -28,7 +33,7 @@ Computer Aided Geometric Design (in press), 2020.
   bounds on the dimension.</i>
 D. Toshniwal and T.J.R. Hughes.
 <br>
-Computer Aided Geometric Design (in press), 2019.
+Computer Aided Geometric Design, 75, Article 101763, 2019.
 [paper](https://www.sciencedirect.com/science/article/pii/S0167839619300664),
 [Macaulay2 package](https://dtoshniwal.github.io/Macaulay2/share/doc/simplicial_splines.html)
 
