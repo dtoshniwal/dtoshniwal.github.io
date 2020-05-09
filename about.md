@@ -38,3 +38,8 @@ Numerical Analysis, Delft Institute of Applied Mathematics
 <br>
 Delft University of Technology, The Netherlands
 
+<br>
+<h2 class="message" align="center">Other Achievements</h2>
+<br>
+ - Scored a Perfect score in GRE 2010
+
