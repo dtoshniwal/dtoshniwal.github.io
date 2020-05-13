@@ -15,7 +15,7 @@ title: Research
 D. Toshniwal and N. Villamizar.
 <br>
 Computer Aided Geometric Design (accepted), 2020.
-[paper](https://arxiv.org/abs/1912.13118)
+[paper](https://doi.org/10.1016/j.cagd.2020.101880)
 
 * <i>A Tchebycheffian extension of multi-degree B-splines: Algorithmic computation and properties.</i>
 <br>
