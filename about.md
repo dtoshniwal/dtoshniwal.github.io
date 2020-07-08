@@ -4,6 +4,16 @@ title: About
 ---
 
 <br>
+<h2 class="message" align="center">Professional Experience</h2>
+<br>
+<span style="font-weight:bold">Assistant Professor</span>, June 2019 - present
+<br>
+Numerical Analysis, Delft Institute of Applied Mathematics
+<br>
+Delft University of Technology, The Netherlands
+
+
+<br>
 <h2 class="message" align="center">Education</h2>
 <br>
 <span style="font-weight:bold">Ph.D., Computational Science, Engineering and
@@ -28,13 +38,4 @@ Delft University of Technology, The Netherlands
 <br>
 Indian Institute of Technology - Kharagpur, India
 
-
-<br>
-<h2 class="message" align="center">Professional Experience</h2>
-<br>
-<span style="font-weight:bold">Assistant Professor</span>, June 2019 - present
-<br>
-Numerical Analysis, Delft Institute of Applied Mathematics
-<br>
-Delft University of Technology, The Netherlands
 

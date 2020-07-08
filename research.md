@@ -7,6 +7,15 @@ title: Research
 * Multivariate splines
 * Isogeometric analysis
 * Computer aided geometric design
+* Structure-preserving discretizations
+* [Scientific machine learning](https://www.tudelft.nl/en/ai/ai-labs/machina/)
+
+<h2 class="message" align="center">BSc/MSc/PhD thesis options</h2>
+Check out:
+* [PhD vacancy](https://vacature.beta.tudelft.nl/vacaturesite/permalink/292442/?lang=en) on the development of shape-morphing neuronal scaffolds.
+
+Or, get in touch by email to discuss possible BSc and MSc thesis projects; [this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw) may also be helpful.
+
 
 <h2 class="message" align="center">Publications</h2>
 
