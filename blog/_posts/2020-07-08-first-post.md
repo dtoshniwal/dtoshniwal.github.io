@@ -17,4 +17,4 @@ const inspect = Inspector.into("#observablehq-94ef5caf");
 (new Runtime).module(define, name => name === "graphic" ? inspect() : undefined);
 </script>
 
-All in all, happy with what the platform can do; time permitting, future posts will diver deeper into splines or their applications!
+All in all, happy with what the platform can do; time permitting, future posts will dive deeper into splines or their applications!
