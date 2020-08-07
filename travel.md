@@ -14,6 +14,11 @@ D. Toshniwal, Y.J. Zhang, G. Elber, J. Peters, X. Wei
 International conference on Curves and Surface, Arcachon, June 20-24, 2022
 <br>
 D. Toshniwal, X. Wei, Y.J. Zhang
+* Isogeometric Spline Techniques on Complex Geometries (minisymposium)
+<br>
+[US National Congress on Computational Mechanics](http://16.usnccm.org/), Chicago, July 25-29, 2021
+<br>
+X. Wei, D. Toshniwal, Y.J. Zhang
 * Multivariate Splines: Theory and Applications (minisymposium)
 <br>
 [International conference on Approximation Theory and Beyond](https://my.vanderbilt.edu/nashville2020/), Nashville, (postponed to) May 17-20, 2021
