@@ -130,7 +130,7 @@ Spectral and High Order Methods for Partial Differential Equations, Springer, Ch
 D. Toshniwal.
 <br>
 Observable.
-[notebook](https://observable.com/@dtoshniwal/interactive-design-with-smooth-splines)
+[notebook](https://observablehq.com/@dtoshniwal/interactive-design-with-smooth-splines)
 
 * <i>Isogeometric Analysis: Study of non-uniform degree and unstructured splines, and application to phase field modeling of corrosion.</i>
 <br>
