@@ -19,9 +19,9 @@ title: Research
 <h2 class="message" align="center">Scientific publications</h2>
 <h3 align="center">Submitted</h3>
 
-<!--* <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
+* <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
 <br>
-H. Speleers and D. Toshniwal. 2020.-->
+H. Speleers and D. Toshniwal. 2020.
 
 * <i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i>
 <br>
