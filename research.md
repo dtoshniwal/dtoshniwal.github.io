@@ -8,7 +8,7 @@ title: Research
 * Isogeometric analysis
 * Computer aided geometric design
 * Structure-preserving discretizations
-* [Scientific machine learning](https://www.tudelft.nl/en/ai/ai-labs/machina/)
+* [Scientific machine learning](https://www.tudelft.nl/en/ai/machina/)
 
 <h2 class="message" align="center">Thesis options for students</h2>
 
