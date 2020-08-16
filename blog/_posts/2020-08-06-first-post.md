@@ -8,6 +8,7 @@ title: '"Sometimes the best way to learn something...'
 Earlier this year I got introduced to [Observable](http://observablehq.com/), a D3-based platform for making interactive data visualizations. A few weeks ago I started making an interative spline editor there and I have to say that it has been an enjoyable learning experience.
 
 I ended up filling up the notebook so that it can also serve as a gentle, gentle introduction to interactive design using smooth splines. If you have the time, [check it out here](https://observablehq.com/@dtoshniwal/interactive-design-with-smooth-splines).
+You can also play around with one of the interactive graphics here (the graphic may take a few seconds to load):
 
 <div id="observablehq-94ef5caf"></div>
 <script type="module">
