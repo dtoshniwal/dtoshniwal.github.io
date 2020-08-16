@@ -13,15 +13,15 @@
 #gallery-container {
     position: relative;
     width: 100%;
-    height: 77%;
-    padding-bottom: 30%;
+    height: 300px;
+    padding-bottom: 000px;
     margin-left: auto;
     margin-right: auto;
     text-align: left; 
 }
 
 div.textblock {
-	width: 63%;
+	width: 62%;
     height: 100%;
     top: 0px;
     left: 0px;
@@ -35,7 +35,7 @@ img.gallery-fullsize {
     top: 0%;
     left: 100%;
     width: auto;
-    height: 100%;
+    height: 80%;
     padding: 14px;
     display: none;
     background-color: #FFFFFF;
@@ -47,7 +47,7 @@ img.gallery-thumb {
     top: 0%;
     left: 100%;
     width: auto;
-    height: 100%;
+    height: 80%;
     padding: 14px;
     display: block;
     border: 7px $message-background-color solid;
