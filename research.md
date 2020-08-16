@@ -4,11 +4,27 @@ title: Research
 ---
 <h2 class="message" align="center">Interests</h2>
 
-* Multivariate splines
-* Isogeometric analysis
-* Computer aided geometric design
-* Structure-preserving discretizations
-* [Scientific machine learning](https://www.tudelft.nl/en/ai/machina/)
+<div id="gallery-container">
+    <div class='textblock'>
+        <img src="{{ site.baseurl}}/research_imgs/spl.png" class="gallery-thumb" />
+        <ul style="list-style-type:none;">
+        	<li class="hover-item">Multivariate splines <img src="{{ site.baseurl}}/research_imgs/mspl.png" class="gallery-fullsize" /></li>
+        	<li class="hover-item">Isogeometric analysis <img src="{{ site.baseurl}}/research_imgs/iga_alt.png" class="gallery-fullsize" /> </li>
+        	<li class="hover-item">Computer-aided geometric design  <img src="{{ site.baseurl}}/research_imgs/cagd.png" class="gallery-fullsize" /> </li>
+        	<li class="hover-item">Structure-preserving discretizations  <img src="{{ site.baseurl}}/research_imgs/sps.png" class="gallery-fullsize" /> </li>
+        	<li class="hover-item"><a href="https://www.tudelft.nl/en/ai/machina/">Scientific machine learning</a> <img src="{{ site.baseurl}}/research_imgs/sml.png" class="gallery-fullsize" /> </li>
+        </ul>
+    </div>
+</div>
+
+<!--
+<a class="hover-img">Multivariate splines<img src="http://placehold.it/150x150" alt="image" height="170"></a>
+<a class="hover-img">Isogeometric Analysis<img src="http://placehold.it/150x150" alt="image" height="280"></a>
+<a class="hover-img">Computer-aided geometric design<img src="http://placehold.it/150x150" alt="image" height="280"></a>
+
+<a class="hover-img">Structure-preserving discretizations<img src="http://placehold.it/150x150" alt="image" height="170"></a>
+<a href="https://www.tudelft.nl/en/ai/machina/">Scientific machine learning</a>
+-->
 
 <h2 class="message" align="center">Thesis options for students</h2>
 

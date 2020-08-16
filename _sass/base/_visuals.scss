@@ -1,0 +1,66 @@
+/**
+  * _visuals.scss
+  * Aspects related to images etc.
+*/
+
+.center-img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 28px;
+}
+
+#gallery-container {
+    position: relative;
+    width: 100%;
+    height: 77%;
+    padding-bottom: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left; 
+}
+
+div.textblock {
+	width: 63%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: block;
+    background: $body-background-color;
+}
+
+img.gallery-fullsize {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: auto;
+    height: 100%;
+    padding: 14px;
+    display: none;
+    background-color: #FFFFFF;
+    border: 7px $message-background-color solid;
+}
+
+img.gallery-thumb {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: auto;
+    height: 100%;
+    padding: 14px;
+    display: block;
+    border: 7px $message-background-color solid;
+}
+
+ul li.hover-item {
+    padding-left: 14px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: $link-color;
+}
+li.hover-item:hover img.gallery-fullsize{
+	display: block;
+}
+li.hover-item:hover {background: $message-background-color;}
+
