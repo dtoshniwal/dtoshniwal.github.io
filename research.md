@@ -35,6 +35,10 @@ title: Research
 <h2 class="message" align="center">Scientific publications</h2>
 <h3 align="center">Submitted</h3>
 
+* <i>Isogeometric discrete differential forms: Bezier extraction, polar singularities and flows on surfaces.</i>
+<br>
+D. Toshniwal and T.J.R. Hughes. 2020.
+
 * <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
 <br>
 H. Speleers and D. Toshniwal. 2020.

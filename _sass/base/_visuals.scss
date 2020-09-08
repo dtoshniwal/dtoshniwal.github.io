@@ -32,8 +32,8 @@ div.textblock {
 
 img.gallery-fullsize {
     position: absolute;
-    top: 0%;
-    left: 100%;
+    top: -10000px;
+    left: -100000px;
     width: auto;
     height: 80%;
     padding: 14px;
@@ -60,6 +60,8 @@ ul li.hover-item {
     color: $link-color;
 }
 li.hover-item:hover img.gallery-fullsize{
+    top: 0%;
+    left: 100%;
 	display: block;
 }
 li.hover-item:hover {background: $message-background-color;}
