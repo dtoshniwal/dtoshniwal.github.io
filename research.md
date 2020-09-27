@@ -47,15 +47,18 @@ H. Speleers and D. Toshniwal. 2020.
 <br>
 D. Toshniwal and M. DiPasquale. 2020.
 
-* <i>The divergence-conforming immersed boundary method: Application to vesicle and capsule dynamics.</i>
-<br>
-H.Casquero, C. Bona-Casas, D. Toshniwal, T.J.R. Hughes, H.Gomez and Y.J.Zhang. 2020.
-
 * <i>Polynomial spline spaces of non-uniform bi-degree on T- meshes: Combinatorial bounds on the dimension.</i>
 <br>
 D. Toshniwal, B. Mourrain and T.J.R. Hughes. 2019.
 
 <h3 align="center">Published</h3>
+
+* <i>The divergence-conforming immersed boundary method: Application to vesicle and capsule dynamics.</i>
+<br>
+H.Casquero, C. Bona-Casas, D. Toshniwal, T.J.R. Hughes, H.Gomez and Y.J.Zhang.
+<br>
+Journal of Computational Physics, 2020. (accepted)
+
 
 * <i>Dimension of polynomial splines of mixed smoothness on T-meshes.</i>
 <br>
