@@ -53,12 +53,18 @@ D. Toshniwal, B. Mourrain and T.J.R. Hughes. 2019.
 
 <h3 align="center">Published</h3>
 
+* <i>Smooth multi-patch discretizations for Isogeometric Analysis.</i>
+<br>
+T.J.R. Hughes, G. Sangalli, T. Takacs and D. Toshniwal.
+<br>
+Handbook of Numerical Analysis, 2021. (to appear)
+
 * <i>The divergence-conforming immersed boundary method: Application to vesicle and capsule dynamics.</i>
 <br>
 H.Casquero, C. Bona-Casas, D. Toshniwal, T.J.R. Hughes, H.Gomez and Y.J.Zhang.
 <br>
-Journal of Computational Physics, 2020. (accepted)
-
+Journal of Computational Physics, Article 109872, 2020.
+[paper](https://doi.org/10.1016/j.jcp.2020.109872)
 
 * <i>Dimension of polynomial splines of mixed smoothness on T-meshes.</i>
 <br>
