@@ -58,6 +58,7 @@ D. Toshniwal, B. Mourrain and T.J.R. Hughes. 2019.
 T.J.R. Hughes, G. Sangalli, T. Takacs and D. Toshniwal.
 <br>
 Handbook of Numerical Analysis, 2021. (to appear)
+[paper](https://doi.org/10.1016/bs.hna.2020.09.002)
 
 * <i>The divergence-conforming immersed boundary method: Application to vesicle and capsule dynamics.</i>
 <br>
