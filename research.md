@@ -28,8 +28,7 @@ title: Research
 
 <h2 class="message" align="center">Thesis options for students</h2>
 
-* [PhD vacancy](https://vacature.beta.tudelft.nl/vacaturesite/permalink/292442/?lang=en) on the development of shape-morphing neuronal scaffolds.
-* Or, get in touch by email to discuss possible BSc and MSc thesis projects; [this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw) may also be helpful.
+Get in touch by email to discuss possible BSc and MSc thesis projects; [this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw) may also be helpful.
 
 
 <h2 class="message" align="center">Scientific publications</h2>
