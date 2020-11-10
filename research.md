@@ -34,9 +34,6 @@ Get in touch by email to discuss possible BSc and MSc thesis projects; [this lis
 <h2 class="message" align="center">Scientific publications</h2>
 <h3 align="center">Submitted</h3>
 
-* <i>Isogeometric discrete differential forms: Bezier extraction, polar singularities and flows on surfaces.</i>
-<br>
-D. Toshniwal and T.J.R. Hughes. 2020.
 
 * <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
 <br>
@@ -52,11 +49,18 @@ D. Toshniwal, B. Mourrain and T.J.R. Hughes. 2019.
 
 <h3 align="center">Published</h3>
 
+* <i>Isogeometric discrete differential forms: Non-uniform degrees, Bezier extraction, polar splines and flows on surfaces.</i>
+<br>
+D. Toshniwal and T.J.R. Hughes.
+<br>
+Computer Methods in Applied Mechanics and Engineering. (accepted)
+[preprint](https://www.oden.utexas.edu/media/reports/2020/2018.pdf)
+
 * <i>Smooth multi-patch discretizations for Isogeometric Analysis.</i>
 <br>
 T.J.R. Hughes, G. Sangalli, T. Takacs and D. Toshniwal.
 <br>
-Handbook of Numerical Analysis, 2021. (to appear)
+Handbook of Numerical Analysis, 2021. (in press)
 [paper](https://doi.org/10.1016/bs.hna.2020.09.002)
 
 * <i>The divergence-conforming immersed boundary method: Application to vesicle and capsule dynamics.</i>
