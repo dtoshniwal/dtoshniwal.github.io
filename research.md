@@ -32,22 +32,31 @@ Get in touch by email to discuss possible BSc and MSc thesis projects; [this lis
 
 
 <h2 class="message" align="center">Scientific publications</h2>
-<h3 align="center">Submitted</h3>
+<!--<h3 align="center">Submitted</h3>-->
 
+<h3 align="center">Published</h3>
 
 * <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
 <br>
-H. Speleers and D. Toshniwal. 2020.
+H. Speleers and D. Toshniwal.
+<br>
+Computer Aided Design. (accepted)
+[preprint](https://arxiv.org/abs/2012.03229)
 
 * <i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i>
 <br>
-D. Toshniwal and M. DiPasquale. 2020.
+D. Toshniwal and M. DiPasquale.
+<br>
+Advances in Computational Mathematics. (accepted)
+[preprint](https://arxiv.org/abs/2001.01774)
 
 * <i>Polynomial spline spaces of non-uniform bi-degree on T- meshes: Combinatorial bounds on the dimension.</i>
 <br>
-D. Toshniwal, B. Mourrain and T.J.R. Hughes. 2019.
+D. Toshniwal, B. Mourrain and T.J.R. Hughes.
+<br>
+Advances in Computational Mathematics. (accepted)
+[preprint](https://arxiv.org/abs/1903.05949)
 
-<h3 align="center">Published</h3>
 
 * <i>Isogeometric discrete differential forms: Non-uniform degrees, Bezier extraction, polar splines and flows on surfaces.</i>
 <br>
