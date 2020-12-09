@@ -41,7 +41,8 @@ Get in touch by email to discuss possible BSc and MSc thesis projects; [this lis
 H. Speleers and D. Toshniwal.
 <br>
 Computer Aided Design. (accepted)
-[preprint](https://arxiv.org/abs/2012.03229)
+[paper](https://doi.org/10.1016/j.cad.2020.102982)
+
 
 * <i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i>
 <br>
