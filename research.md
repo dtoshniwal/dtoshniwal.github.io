@@ -36,13 +36,6 @@ Get in touch by email to discuss possible BSc and MSc thesis projects; [this lis
 
 <h3 align="center">Published</h3>
 
-* <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
-<br>
-H. Speleers and D. Toshniwal.
-<br>
-Computer Aided Design. (accepted)
-[paper](https://doi.org/10.1016/j.cad.2020.102982)
-
 
 * <i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i>
 <br>
@@ -66,26 +59,35 @@ D. Toshniwal and T.J.R. Hughes.
 Computer Methods in Applied Mechanics and Engineering. (accepted)
 [preprint](https://www.oden.utexas.edu/media/reports/2020/2018.pdf)
 
-* <i>Smooth multi-patch discretizations for Isogeometric Analysis.</i>
+* <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
 <br>
-T.J.R. Hughes, G. Sangalli, T. Takacs and D. Toshniwal.
+H. Speleers and D. Toshniwal.
 <br>
-Handbook of Numerical Analysis, 2021. (in press)
-[paper](https://doi.org/10.1016/bs.hna.2020.09.002)
+Computer-Aided Design, 132, Article 102982, 2021.
+[paper (open access)](https://doi.org/10.1016/j.cad.2020.102982)
+
 
 * <i>The divergence-conforming immersed boundary method: Application to vesicle and capsule dynamics.</i>
 <br>
 H.Casquero, C. Bona-Casas, D. Toshniwal, T.J.R. Hughes, H.Gomez and Y.J.Zhang.
 <br>
-Journal of Computational Physics, Article 109872, 2020.
-[paper](https://doi.org/10.1016/j.jcp.2020.109872)
+Journal of Computational Physics, 425, Article 109872, 2021.
+[paper (open access)](https://doi.org/10.1016/j.jcp.2020.109872)
+
+* <i>Smooth multi-patch discretizations for Isogeometric Analysis.</i>
+<br>
+T.J.R. Hughes, G. Sangalli, T. Takacs and D. Toshniwal.
+<br>
+Handbook of Numerical Analysis, 2020. (in press)
+[paper](https://doi.org/10.1016/bs.hna.2020.09.002)
+
 
 * <i>Dimension of polynomial splines of mixed smoothness on T-meshes.</i>
 <br>
 D. Toshniwal and N. Villamizar.
 <br>
 Computer Aided Geometric Design, 80, Article 101880, 2020.
-[paper](https://doi.org/10.1016/j.cagd.2020.101880)
+[paper (open access)](https://doi.org/10.1016/j.cagd.2020.101880)
 
 * <i>A Tchebycheffian extension of multi-degree B-splines: Algorithmic computation and properties.</i>
 <br>
@@ -106,8 +108,7 @@ Computer Methods in Applied Mechanics and Engineering, 360, Article 112765, 2020
 D. Toshniwal, H. Speleers, R. Hiemstra, C. Manni and T.J.R. Hughes.
 <br>
 Computer Aided Geometric Design, 76, Article 101792, 2020.
-[paper](https://authors.elsevier.com/a/1a64gcAOqupwL)
-<!--https://doi.org/10.1016/j.cagd.2019.101792)-->
+[paper](https://doi.org/10.1016/j.cagd.2019.101792)
 
 * <i>Polynomial splines of non-uniform degree on triangulations: Combinatorial bounds on the dimension.</i>
 <br>
