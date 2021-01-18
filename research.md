@@ -37,12 +37,6 @@ Get in touch by email to discuss possible BSc and MSc thesis projects; [this lis
 <h3 align="center">Published</h3>
 
 
-* <i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i>
-<br>
-D. Toshniwal and M. DiPasquale.
-<br>
-Advances in Computational Mathematics. (accepted)
-[preprint](https://arxiv.org/abs/2001.01774)
 
 * <i>Polynomial spline spaces of non-uniform bi-degree on T- meshes: Combinatorial bounds on the dimension.</i>
 <br>
@@ -58,6 +52,13 @@ D. Toshniwal and T.J.R. Hughes.
 <br>
 Computer Methods in Applied Mechanics and Engineering. (accepted)
 [preprint](https://www.oden.utexas.edu/media/reports/2020/2018.pdf)
+
+* <i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i>
+<br>
+D. Toshniwal and M. DiPasquale.
+<br>
+Advances in Computational Mathematics, 47:6, 2021.
+[paper (open access)](https://rdcu.be/cdJ8x)
 
 * <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
 <br>
