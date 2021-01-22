@@ -50,8 +50,8 @@ Advances in Computational Mathematics. (accepted)
 <br>
 D. Toshniwal and T.J.R. Hughes.
 <br>
-Computer Methods in Applied Mechanics and Engineering. (accepted)
-[preprint](https://www.oden.utexas.edu/media/reports/2020/2018.pdf)
+Computer Methods in Applied Mechanics and Engineering, 376, Article 113576, 2021.
+[paper (open access)](https://doi.org/10.1016/j.cma.2020.113576)
 
 * <i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i>
 <br>
