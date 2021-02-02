@@ -9,6 +9,7 @@ title: Teaching
 <span style="font-weight:bold">2020-2021</span>
 * Computational Fluid Dynamics
 * Applied Finite Elements
+* Special Topics in Computational Science and Engineering (co-teaching alongside Matthias Moller)
 
 
 <span style="font-weight:bold">2019-2020</span>

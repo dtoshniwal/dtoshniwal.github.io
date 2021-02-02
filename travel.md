@@ -14,16 +14,16 @@ D. Toshniwal, Y.J. Zhang, G. Elber, J. Peters, X. Wei
 International conference on Curves and Surface, Arcachon, June 20-24, 2022
 <br>
 D. Toshniwal, X. Wei, Y.J. Zhang
+* Multivariate Splines: Theory and Applications (minisymposium)
+<br>
+[International conference on Approximation Theory and Beyond](https://my.vanderbilt.edu/nashville2020/), Nashville, (postponed to) May 16-19, 2022
+<br>
+H. Speleers, D. Toshniwal, M. DiPasquale
 * Isogeometric Spline Techniques on Complex Geometries (minisymposium)
 <br>
 [US National Congress on Computational Mechanics](http://16.usnccm.org/), Chicago, July 25-29, 2021
 <br>
 X. Wei, D. Toshniwal, Y.J. Zhang
-* Multivariate Splines: Theory and Applications (minisymposium)
-<br>
-[International conference on Approximation Theory and Beyond](https://my.vanderbilt.edu/nashville2020/), Nashville, (postponed to) May 17-20, 2021
-<br>
-H. Speleers, D. Toshniwal, M. DiPasquale
 * Isogeometric Spline Techniques on Complex Geometries (minisymposium)
 <br>
 [World Congress on Computational Mechanics](https://www.wccm-eccomas2020.org/), Paris, (cancelled) July 19-24, 2020
@@ -32,9 +32,9 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 <h2 class="message" align="center">Participation (since 2017)</h2>
 
-Functional Analysis, Approximation Theory and Numerical Analysis, Matera, (postponed to) July 2021
+Functional Analysis, Approximation Theory and Numerical Analysis, Matera, (postponed to) July 2022
 
-International Conference on Approximation Theory and Beyond, Nashville, (postponed to) May 2021
+International Conference on Approximation Theory and Beyond, Nashville, (postponed to) May 2022
 
 INdAM Workshop on Geometric Challenges in Isogeometric Analysis, Rome, January 2020
 

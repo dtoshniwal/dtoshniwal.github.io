@@ -34,16 +34,8 @@ Get in touch by email to discuss possible BSc and MSc thesis projects; [this lis
 <h2 class="message" align="center">Scientific publications</h2>
 <!--<h3 align="center">Submitted</h3>-->
 
-<h3 align="center">Published</h3>
+<!--<h3 align="center">Published</h3>-->
 
-
-
-* <i>Polynomial spline spaces of non-uniform bi-degree on T- meshes: Combinatorial bounds on the dimension.</i>
-<br>
-D. Toshniwal, B. Mourrain and T.J.R. Hughes.
-<br>
-Advances in Computational Mathematics. (accepted)
-[preprint](https://arxiv.org/abs/1903.05949)
 
 
 * <i>Isogeometric discrete differential forms: Non-uniform degrees, Bezier extraction, polar splines and flows on surfaces.</i>
@@ -53,14 +45,23 @@ D. Toshniwal and T.J.R. Hughes.
 Computer Methods in Applied Mechanics and Engineering, 376, Article 113576, 2021.
 [paper (open access)](https://doi.org/10.1016/j.cma.2020.113576)
 
+
+* <i>Polynomial spline spaces of non-uniform bi-degree on T- meshes: Combinatorial bounds on the dimension.</i>
+<br>
+D. Toshniwal, B. Mourrain and T.J.R. Hughes.
+<br>
+Advances in Computational Mathematics, 47, Article 16, 2021.
+[paper (open access)](https://doi.org/10.1007/s10444-020-09829-4)
+
+
 * <i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i>
 <br>
 D. Toshniwal and M. DiPasquale.
 <br>
-Advances in Computational Mathematics, 47:6, 2021.
+Advances in Computational Mathematics, 47, Article 6, 2021.
 [paper (open access)](https://rdcu.be/cdJ8x)
 
-* <i>A general class of C1 smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
+* <i>A general class of C<sup>1</sup> smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i>
 <br>
 H. Speleers and D. Toshniwal.
 <br>
@@ -79,7 +80,7 @@ Journal of Computational Physics, 425, Article 109872, 2021.
 <br>
 T.J.R. Hughes, G. Sangalli, T. Takacs and D. Toshniwal.
 <br>
-Handbook of Numerical Analysis, 2020. (in press)
+Handbook of Numerical Analysis, 22, 2021.
 [paper](https://doi.org/10.1016/bs.hna.2020.09.002)
 
 
