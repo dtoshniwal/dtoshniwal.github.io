@@ -27,8 +27,8 @@ title: Research
 -->
 
 <h2 class="message" align="center">Thesis options for students</h2>
-
-Get in touch by email to discuss possible BSc and MSc thesis projects; [this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw) may also be helpful.
+<p> <mark>PhD vacancy in isogeometric analysis</mark>: get in touch by email if you are interested!</p>
+For possible BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw).
 
 
 <h2 class="message" align="center">Scientific publications</h2>

@@ -20,6 +20,9 @@ author:
   url:               dtoshniwal.github.io
   email:             d.toshniwal@tudelft.nl
 
+blog:
+  truncated_preview: true
+
 plugins:
   - jekyll-coffeescript
   - jekyll-paginate
