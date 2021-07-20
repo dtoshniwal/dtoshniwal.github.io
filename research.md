@@ -27,17 +27,21 @@ title: Research
 -->
 
 <h2 class="message" align="center">Thesis options for students</h2>
-[PhD vacancy in isogeometric analysis: apply before June 6, 2021!](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=2804&jobTitle=PhD%20position%20in%20Isogeometric%20Analysis)
+<!--[PhD vacancy in isogeometric analysis: apply before June 6, 2021!](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=2804&jobTitle=PhD%20position%20in%20Isogeometric%20Analysis)-->
 
 For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw).
 
 
 <h2 class="message" align="center">Scientific publications</h2>
-<!--<h3 align="center">Submitted</h3>-->
+<h3 align="center">Preprints</h3>
 
-<!--<h3 align="center">Published</h3>-->
+* <i>Algebraic methods for supersmooth spline spaces</i>
+<br>
+D. Toshniwal and N. Villamizar.
+<br>
+[arXiv preprint (math.AC)](https://arxiv.org/abs/2107.06842/)
 
-
+<h3 align="center">Published</h3>
 
 * <i>Isogeometric discrete differential forms: Non-uniform degrees, Bezier extraction, polar splines and flows on surfaces.</i>
 <br>

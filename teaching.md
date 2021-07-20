@@ -10,6 +10,7 @@ title: Teaching
 * Computational Fluid Dynamics
 * Applied Finite Elements
 * Special Topics in Computational Science and Engineering (with Matthias Moller and Alexander Heinlein)
+* Structure-preserving methods in Isogeometric Analysis (with Espen Sande)
 
 
 <span style="font-weight:bold">2019-2020</span>

@@ -2,7 +2,7 @@
 layout: page
 title: Scientific meetings
 ---
-<h2 class="message" align="center">Organization</h2>
+<!--<h2 class="message" align="center">Organization</h2>
 
 * Unstructured Spline Technologies (minisymposium)
 <br>
@@ -30,11 +30,16 @@ X. Wei, D. Toshniwal, Y.J. Zhang
 <br> 
 X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
-<h2 class="message" align="center">Participation (since 2017)</h2>
+<h2 class="message" align="center">Participation (since 2017)</h2>-->
+<br>
 
 Functional Analysis, Approximation Theory and Numerical Analysis, Matera, (postponed to) July 2022
 
 International Conference on Approximation Theory and Beyond, Nashville, (postponed to) May 2022
+
+SIAM Conference on Applied Algebraic Geometry, Online, August 2021
+
+Dimension of Multivariate Splines: An Algebraic Approach, Online, May 2021
 
 INdAM Workshop on Geometric Challenges in Isogeometric Analysis, Rome, January 2020
 
