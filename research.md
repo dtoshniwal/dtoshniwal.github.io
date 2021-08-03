@@ -39,7 +39,7 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 <br>
 D. Toshniwal and N. Villamizar.
 <br>
-[arXiv preprint (math.AC)](https://arxiv.org/abs/2107.06842/)
+[arXiv:2107.06842 (math.AC)](https://arxiv.org/abs/2107.06842/)
 
 <h3 align="center">Published</h3>
 
