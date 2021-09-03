@@ -41,7 +41,13 @@ D. Toshniwal and N. Villamizar.
 <br>
 [arXiv:2107.06842 (math.AC)](https://arxiv.org/abs/2107.06842/)
 
-<h3 align="center">Published</h3>
+<h3 align="center">Published/Accepted</h3>
+
+* <i>Quadratic B-splines on quad-tri meshes: Construction and an application to simulations on watertight reconstructions of trimmed surfaces</i>
+<br>
+D. Toshniwal.
+<br>
+Computer Methods in Applied Mechanics and Engineering (accepted).
 
 * <i>Isogeometric discrete differential forms: Non-uniform degrees, Bezier extraction, polar splines and flows on surfaces.</i>
 <br>
