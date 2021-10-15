@@ -48,7 +48,7 @@ D. Toshniwal and N. Villamizar.
 D. Toshniwal.
 <br>
 Computer Methods in Applied Mechanics and Engineering, 388, Article 114174, 2022.
-[paper (open access)](https://doi.org/10.1016/j.cma.2021.114174)
+[paper (open access)](https://www.sciencedirect.com/science/article/pii/S0045782521005053)
 
 * <i>Isogeometric discrete differential forms: Non-uniform degrees, Bezier extraction, polar splines and flows on surfaces.</i>
 <br>
