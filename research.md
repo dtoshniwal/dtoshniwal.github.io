@@ -35,6 +35,12 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 <h2 class="message" align="center">Scientific publications</h2>
 <h3 align="center">Preprints</h3>
 
+* <i>An optimally convergent smooth blended B-spline construction for unstructured quadrilateral and hexahedral meshes </i>
+<br>
+K.J. Koh, D. Toshniwal and F. Cirak.
+<br>
+[arXiv:2111.04401 (math.NA)](https://arxiv.org/abs/2111.04401/)
+
 * <i>Algebraic methods for supersmooth spline spaces</i>
 <br>
 D. Toshniwal and N. Villamizar.
