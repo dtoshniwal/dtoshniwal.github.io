@@ -37,7 +37,7 @@ International Conference on Isogeometric Analysis, Banff, November 2022
 
 Functional Analysis, Approximation Theory and Numerical Analysis, Matera, July 2022
 
-International conference on Curves and Surface, Arcachon, June 2022
+International conference on Curves and Surfaces, Arcachon, June 2022
 
 International Conference on Approximation Theory and Beyond, Nashville, (postponed to) May 2022
 
