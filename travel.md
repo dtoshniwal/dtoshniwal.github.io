@@ -40,6 +40,8 @@ International Conference on Approximation Theory and Beyond, Nashville, (postpon
 
 International Conference on Isogeometric Analysis, Banff, November 2022
 
+INdAM workshop - Approximation Theory and Numerical Analysis meet Algebra, Geometry and Topology, Cortona, September 2022
+
 Functional Analysis, Approximation Theory and Numerical Analysis, Matera, July 2022
 
 International conference on Curves and Surfaces, Arcachon, June 2022
@@ -47,17 +49,17 @@ International conference on Curves and Surfaces, Arcachon, June 2022
 
 <h2 class="message" align="center">Past (2017 onwards)</h2>
 
-Workshop on Geometric Modeling: Interoperability and New Challenges, Dagstuhl, November 2021
+Dagstuhl Workshop - Geometric Modeling: Interoperability and New Challenges, Dagstuhl, November 2021
 
 SIAM Conference on Applied Algebraic Geometry, Online, August 2021
 
 Dimension of Multivariate Splines: An Algebraic Approach, Online, May 2021
 
-INdAM Workshop on Geometric Challenges in Isogeometric Analysis, Rome, January 2020
+INdAM Workshop - Geometric Challenges in Isogeometric Analysis, Rome, January 2020
 
 International Conference on Isogeometric Analysis, Munich, September 2019
 
-Workshop on Algebraic Spline Geometry, Swansea, August 2019
+Workshop - Algebraic Spline Geometry, Swansea, August 2019
 
 MFO Workshop on Mathematical Foundations of Isogeometric Analysis, Oberwolfach, July 2019
 
@@ -65,7 +67,7 @@ SIAM Conference on Applied Algebraic Geometry, Bern, July 2019
 
 International Conference on Approximation Theory 16, Nashville, May 2019
 
-BIRS Workshop on Isogeometric Splines: Theory and Applications, Banff, February 2019
+BIRS Workshop - Isogeometric Splines: Theory and Applications, Banff, February 2019
 
 Scientific Computing Seminar at Centrum Wiskunde & Informatica, Amsterdam, October 2018
 
