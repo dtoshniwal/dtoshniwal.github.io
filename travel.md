@@ -33,6 +33,9 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 <h2 class="message" align="center">Participation (since 2017)</h2>-->
 <br>
 
+
+<h2 class="message" align="center">Upcoming</h2>
+
 International Conference on Isogeometric Analysis, Banff, November 2022
 
 Functional Analysis, Approximation Theory and Numerical Analysis, Matera, July 2022
@@ -40,6 +43,9 @@ Functional Analysis, Approximation Theory and Numerical Analysis, Matera, July 2
 International conference on Curves and Surfaces, Arcachon, June 2022
 
 International Conference on Approximation Theory and Beyond, Nashville, (postponed to) May 2022
+
+
+<h2 class="message" align="center">Past (2017--)</h2>
 
 Workshop on Geometric Modeling: Interoperability and New Challenges, Dagstuhl, November 2021
 
