@@ -6,6 +6,10 @@ title: Teaching
 <br>
 <h2 class="message" align="center">Delft University of Technology</h2>
 
+<span style="font-weight:bold">2021-2022</span>
+* Computational Fluid Dynamics
+* Applied Finite Elements
+
 <span style="font-weight:bold">2020-2021</span>
 * Computational Fluid Dynamics
 * Applied Finite Elements
