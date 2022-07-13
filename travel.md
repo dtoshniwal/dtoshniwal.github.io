@@ -40,14 +40,15 @@ International Conference on Approximation Theory and Beyond, Nashville, (postpon
 
 International Conference on Isogeometric Analysis, Banff, November 2022
 
+Workshop for project CHANGE, Universitatszentrum Obergurgl, September 2022
+
 INdAM workshop - Approximation Theory and Numerical Analysis meet Algebra, Geometry and Topology, Cortona, September 2022
+
+<h2 class="message" align="center">Past (2017 onwards)</h2>
 
 Functional Analysis, Approximation Theory and Numerical Analysis, Matera, July 2022
 
 International conference on Curves and Surfaces, Arcachon, June 2022
-
-
-<h2 class="message" align="center">Past (2017 onwards)</h2>
 
 Dagstuhl Workshop - Geometric Modeling: Interoperability and New Challenges, Dagstuhl, November 2021
 
