@@ -41,11 +41,6 @@ T. Takacs and D. Toshniwal.
 <br>
 [arXiv:2201.11491 (math.NA)](https://arxiv.org/abs/2201.11491/)
 
-* <i>An optimally convergent smooth blended B-spline construction for unstructured quadrilateral and hexahedral meshes </i>
-<br>
-K.J. Koh, D. Toshniwal and F. Cirak.
-<br>
-[arXiv:2111.04401 (math.NA)](https://arxiv.org/abs/2111.04401/)
 
 * <i>Algebraic methods for supersmooth spline spaces</i>
 <br>
@@ -54,6 +49,13 @@ D. Toshniwal and N. Villamizar.
 [arXiv:2107.06842 (math.AC)](https://arxiv.org/abs/2107.06842/)
 
 <h3 align="center">Published/Accepted</h3>
+
+* <i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes </i>
+<br>
+K.J. Koh, D. Toshniwal and F. Cirak.
+<br>
+Computer Methods in Applied Mechanics and Engineering (accepted), 2022.
+[arXiv:2111.04401 (math.NA)](https://arxiv.org/abs/2111.04401/)
 
 * <i>Quadratic splines on quad-tri meshes: Construction and an application to simulations on watertight reconstructions of trimmed surfaces</i>
 <br>
