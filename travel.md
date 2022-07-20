@@ -36,6 +36,8 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 <h2 class="message" align="center">Upcoming</h2>
 
+[Conference on Geometry: Theory and Applications](http://www.ag.jku.at/conferences/cgta2023/index.shtml), Schloss Weinberg, June 2023
+
 [International Conference on Approximation Theory and Beyond](https://my.vanderbilt.edu/nashville2023/), Nashville, (postponed to) May 2023
 
 [International Conference on Isogeometric Analysis](http://iga2022.usacm.org/), Banff, November 2022
