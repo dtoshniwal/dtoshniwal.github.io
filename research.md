@@ -43,7 +43,7 @@ T. Takacs and D. Toshniwal.
 
 <h3 align="center">Published/Accepted</h3>
 
-* <i>Algebraic methods for supersmooth spline spaces</i>
+* <i>Algebraic methods to study the dimension of supersmooth spline spaces</i>
 <br>
 D. Toshniwal and N. Villamizar.
 <br>
