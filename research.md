@@ -41,14 +41,14 @@ T. Takacs and D. Toshniwal.
 <br>
 [arXiv:2201.11491 (math.NA)](https://arxiv.org/abs/2201.11491/)
 
+<h3 align="center">Published/Accepted</h3>
 
 * <i>Algebraic methods for supersmooth spline spaces</i>
 <br>
 D. Toshniwal and N. Villamizar.
 <br>
+Advances in Applied Mathematics (accepted), 2022.
 [arXiv:2107.06842 (math.AC)](https://arxiv.org/abs/2107.06842/)
-
-<h3 align="center">Published/Accepted</h3>
 
 * <i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes </i>
 <br>
