@@ -55,8 +55,8 @@ Advances in Applied Mathematics (accepted), 2022.
 <br>
 K.J. Koh, D. Toshniwal and F. Cirak.
 <br>
-Computer Methods in Applied Mechanics and Engineering (accepted), 2022.
-[arXiv:2111.04401 (math.NA)](https://arxiv.org/abs/2111.04401/)
+Computer Methods in Applied Mechanics and Engineering, 399, Article 115438, 2022.
+[paper](https://www.sciencedirect.com/science/article/abs/pii/S0045782522004819) [preprint](https://arxiv.org/abs/2111.04401)
 
 * <i>Quadratic splines on quad-tri meshes: Construction and an application to simulations on watertight reconstructions of trimmed surfaces</i>
 <br>
