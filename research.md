@@ -48,8 +48,8 @@ T. Takacs and D. Toshniwal.
 <br>
 D. Toshniwal and N. Villamizar.
 <br>
-Advances in Applied Mathematics (accepted), 2022.
-[arXiv:2107.06842 (math.AC)](https://arxiv.org/abs/2107.06842/)
+Advances in Applied Mathematics, 142, Article 102412, 2023.
+[paper (open access)](https://www.sciencedirect.com/science/article/pii/S0196885822000963)
 
 * <i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes </i>
 <br>
