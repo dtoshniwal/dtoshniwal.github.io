@@ -34,15 +34,15 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 
 <h2 class="message" align="center">Scientific publications</h2>
-<h3 align="center">Preprints</h3>
+<!--<h3 align="center">Preprints</h3>-->
+
+<h3 align="center">Published/Accepted</h3>
 
 * <i>Almost C<sup>1</sup> splines: Biquadratic splines on unstructured quadrilateral meshes and their application to fourth order problems </i>
 <br>
 T. Takacs and D. Toshniwal.
 <br>
 [arXiv:2201.11491 (math.NA)](https://arxiv.org/abs/2201.11491/)
-
-<h3 align="center">Published/Accepted</h3>
 
 * <i>Algebraic methods to study the dimension of supersmooth spline spaces</i>
 <br>
