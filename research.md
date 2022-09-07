@@ -34,7 +34,14 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 
 <h2 class="message" align="center">Scientific publications</h2>
-<!--<h3 align="center">Preprints</h3>-->
+<h3 align="center">Preprints</h3>
+
+* <i>Locally-verifiable sufficient conditions for exactness of the hierarchical B-spline discrete de Rham complex in ℝ<sup>n</sup></i>
+<br>
+K. Shepherd and D. Toshniwal.
+<br>
+[arXiv:2209.01504 (math.NA)](https://arxiv.org/abs/2209.01504/)
+
 
 <h3 align="center">Published/Accepted</h3>
 
