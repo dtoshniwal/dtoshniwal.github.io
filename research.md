@@ -27,7 +27,7 @@ title: Research
 -->
 
 <h2 class="message" align="center">Thesis options for students</h2>
-Contact me if you are interested in pursuing a <b>PhD on isogeometric analysis</b> (focus: multivariate splines/structure-preserving discretizations).
+[Apply now](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=8330&jobTitle=PhD%20position%20Finite%20element%20methods%20for%20simulating%20tokamaks%20) for a <b>PhD on tokamak simulations using finite elements!</b>
 <br>
 <br>
 For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw).
