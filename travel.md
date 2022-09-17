@@ -44,11 +44,12 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 [Third International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability](https://events.unibo.it/smart2022), Rimini, September 2022
 
+<h2 class="message" align="center">Past (2017 onwards)</h2>
+
 Workshop for project CHANGE, Universitatszentrum Obergurgl, September 2022
 
-[INdAM workshop - Approximation Theory and Numerical Analysis meet Algebra, Geometry and Topology](https://sites.google.com/view/splinescortona2022/home), Cortona, September 2022
-
-<h2 class="message" align="center">Past (2017 onwards)</h2>
+<!--[INdAM workshop - Approximation Theory and Numerical Analysis meet Algebra, Geometry and Topology](https://sites.google.com/view/splinescortona2022/home), Cortona, September 2022-->
+INdAM workshop - Approximation Theory and Numerical Analysis meet Algebra, Geometry and Topology, Cortona, September 2022
 
 Functional Analysis, Approximation Theory and Numerical Analysis, Matera, July 2022
 

@@ -36,7 +36,7 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 <h2 class="message" align="center">Scientific publications</h2>
 <h3 align="center">Preprints</h3>
 
-* <i>Locally-verifiable sufficient conditions for exactness of the hierarchical B-spline discrete de Rham complex in ℝ<sup>n</sup></i>
+* <i>Locally-verifiable sufficient conditions for exactness of the hierarchical B-spline discrete de Rham complex in ℝ<sup>n</sup>.</i>
 <br>
 K. Shepherd and D. Toshniwal.
 <br>
@@ -45,28 +45,28 @@ K. Shepherd and D. Toshniwal.
 
 <h3 align="center">Published/Accepted</h3>
 
-* <i>Algebraic methods to study the dimension of supersmooth spline spaces</i>
+* <i>Algebraic methods to study the dimension of supersmooth spline spaces.</i>
 <br>
 D. Toshniwal and N. Villamizar.
 <br>
 Advances in Applied Mathematics, 142, Article 102412, 2023.
 [paper (open access)](https://www.sciencedirect.com/science/article/pii/S0196885822000963)
 
-* <i>Almost C<sup>1</sup> splines: Biquadratic splines on unstructured quadrilateral meshes and their application to fourth order problems </i>
+* <i>Almost C<sup>1</sup> splines: Biquadratic splines on unstructured quadrilateral meshes and their application to fourth order problems.</i>
 <br>
 T. Takacs and D. Toshniwal.
 <br>
 Computer Methods in Applied Mechanics and Engineering (accepted), 2022.
 [arXiv:2201.11491 (math.NA)](https://arxiv.org/abs/2201.11491/)
 
-* <i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes </i>
+* <i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes.</i>
 <br>
 K.J. Koh, D. Toshniwal and F. Cirak.
 <br>
 Computer Methods in Applied Mechanics and Engineering, 399, Article 115438, 2022.
 [paper](https://www.sciencedirect.com/science/article/abs/pii/S0045782522004819), [preprint](https://arxiv.org/abs/2111.04401)
 
-* <i>Quadratic splines on quad-tri meshes: Construction and an application to simulations on watertight reconstructions of trimmed surfaces</i>
+* <i>Quadratic splines on quad-tri meshes: Construction and an application to simulations on watertight reconstructions of trimmed surfaces.</i>
 <br>
 D. Toshniwal.
 <br>
