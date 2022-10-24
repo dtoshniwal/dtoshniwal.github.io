@@ -45,19 +45,20 @@ K. Shepherd and D. Toshniwal.
 
 <h3 align="center">Published/Accepted</h3>
 
+* <i>Almost C<sup>1</sup> splines: Biquadratic splines on unstructured quadrilateral meshes and their application to fourth order problems.</i>
+<br>
+T. Takacs and D. Toshniwal.
+<br>
+Computer Methods in Applied Mechanics and Engineering, 403 A, Article 115640, 2023.
+[paper (open access)](https://doi.org/10.1016/j.cma.2022.115640)
+
+
 * <i>Algebraic methods to study the dimension of supersmooth spline spaces.</i>
 <br>
 D. Toshniwal and N. Villamizar.
 <br>
 Advances in Applied Mathematics, 142, Article 102412, 2023.
 [paper (open access)](https://www.sciencedirect.com/science/article/pii/S0196885822000963)
-
-* <i>Almost C<sup>1</sup> splines: Biquadratic splines on unstructured quadrilateral meshes and their application to fourth order problems.</i>
-<br>
-T. Takacs and D. Toshniwal.
-<br>
-Computer Methods in Applied Mechanics and Engineering (accepted), 2022.
-[paper (open access)](https://doi.org/10.1016/j.cma.2022.115640)
 
 * <i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes.</i>
 <br>
