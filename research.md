@@ -57,7 +57,7 @@ Advances in Applied Mathematics, 142, Article 102412, 2023.
 T. Takacs and D. Toshniwal.
 <br>
 Computer Methods in Applied Mechanics and Engineering (accepted), 2022.
-[arXiv:2201.11491 (math.NA)](https://arxiv.org/abs/2201.11491/)
+[paper (open access)](https://doi.org/10.1016/j.cma.2022.115640)
 
 * <i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes.</i>
 <br>

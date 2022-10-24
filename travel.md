@@ -42,9 +42,10 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 [International Conference on Isogeometric Analysis](http://iga2022.usacm.org/), Banff, November 2022
 
-[Third International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability](https://events.unibo.it/smart2022), Rimini, September 2022
-
 <h2 class="message" align="center">Past (2017 onwards)</h2>
+
+Third International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability, Rimini, September 2022
+<!--https://events.unibo.it/smart2022)-->
 
 Workshop for project CHANGE, Universitatszentrum Obergurgl, September 2022
 
