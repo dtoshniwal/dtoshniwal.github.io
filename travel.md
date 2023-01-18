@@ -34,7 +34,7 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 <br>
 
 
-<h2 class="message" align="center">Upcoming</h2>
+<h2 class="message" align="center">Upcoming conferences</h2>
 
 [Advances in Computational Mechanics](https://sites.google.com/usacm.org/acm2023), Austin, October 2023
 
@@ -44,7 +44,9 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 [International Conference on Approximation Theory and Beyond](https://my.vanderbilt.edu/nashville2023/), Nashville, (postponed to) May 2023
 
-<h2 class="message" align="center">Past (2017 onwards)</h2>
+[SIAM Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse23), Amsterdam, February 2023
+
+<h2 class="message" align="center">Past conferences (2017 onwards)</h2>
 
 International Conference on Isogeometric Analysis, Banff, November 2022
 <!--http://iga2022.usacm.org/)-->
@@ -93,3 +95,16 @@ SIAM Conference on Industrial and Applied Geometry, Pittsburgh, July 2017
 
 International Conference on Finite Elements in Flow Problems, Rome, April 2017
 
+<h2 class="message" align="center">Other travel</h2>
+
+Johannes Kepler University Linz, Linz, 2022
+
+Department of Mathematics, University of Florence, Florence, 2022
+
+Department of Mathematics, University of Rome Tor Vergata, Rome, 2022
+
+Scientific Computing Group, Centrum Wiskunde & Informatica, Amsterdam, 2019
+
+Inria centre at Université Côte d'Azur, Nice, 2019
+
+Inria centre at Université Côte d'Azur, Nice, 2017
