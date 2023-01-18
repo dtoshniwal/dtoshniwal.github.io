@@ -27,8 +27,6 @@ title: Research
 -->
 
 <h2 class="message" align="center">Thesis options for students</h2>
-[Apply now](https://www.tudelft.nl/over-tu-delft/werken-bij-tu-delft/vacatures/details?jobId=8330&jobTitle=PhD%20position%20Finite%20element%20methods%20for%20simulating%20tokamaks%20) for a <b>PhD on tokamak simulations using finite elements!</b>
-<br>
 <br>
 For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw).
 
@@ -206,6 +204,13 @@ Spectral and High Order Methods for Partial Differential Equations, Springer, Ch
 [paper](https://link.springer.com/chapter/10.1007/978-3-319-01601-6_32)
 
 <h2 class="message" align="center">Other writings</h2>
+
+* <i>Guest editorial for special issue: Design for Advanced Manufacturing.</i>
+<br>
+Y.F. Zhao, S. Elgeti, J. Guest, C. McComb, J. Norato and D. Toshniwal.
+<br>
+ASME Journal of Mechanical Design, 145, 010301, 2023.
+[notebook](https://observablehq.com/@dtoshniwal/interactive-design-with-smooth-splines)
 
 * <i>Interactive design with smooth splines.</i>
 <br>

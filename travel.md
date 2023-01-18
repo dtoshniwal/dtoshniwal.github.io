@@ -36,13 +36,18 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 <h2 class="message" align="center">Upcoming</h2>
 
+[Advances in Computational Mechanics](https://sites.google.com/usacm.org/acm2023), Austin, October 2023
+
 [Conference on Geometry: Theory and Applications](http://www.ag.jku.at/conferences/cgta2023/index.shtml), Schloss Weinberg, June 2023
+
+[9th International Workshop on High-Order Finite Element and Isogeometric Methods](https://cyprusconferences.org/hofeim2023/), Larnaca, May 2023
 
 [International Conference on Approximation Theory and Beyond](https://my.vanderbilt.edu/nashville2023/), Nashville, (postponed to) May 2023
 
-[International Conference on Isogeometric Analysis](http://iga2022.usacm.org/), Banff, November 2022
-
 <h2 class="message" align="center">Past (2017 onwards)</h2>
+
+International Conference on Isogeometric Analysis, Banff, November 2022
+<!--http://iga2022.usacm.org/)-->
 
 Third International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability, Rimini, September 2022
 <!--https://events.unibo.it/smart2022)-->
