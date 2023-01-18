@@ -210,7 +210,7 @@ Spectral and High Order Methods for Partial Differential Equations, Springer, Ch
 Y.F. Zhao, S. Elgeti, J. Guest, C. McComb, J. Norato and D. Toshniwal.
 <br>
 ASME Journal of Mechanical Design, 145, 010301, 2023.
-[notebook](https://observablehq.com/@dtoshniwal/interactive-design-with-smooth-splines)
+[editorial](https://doi.org/10.1115/1.4056169)
 
 * <i>Interactive design with smooth splines.</i>
 <br>
