@@ -46,7 +46,11 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 [SIAM Computational Science and Engineering](https://www.siam.org/conferences/cm/conference/cse23), Amsterdam, February 2023
 
-<h2 class="message" align="center">Past conferences (2017 onwards)</h2>
+<h2 class="message" align="center">Past conferences and talks (2017 onwards)</h2>
+
+École polytechnique fédérale de Lausanne, Lausanne, February 2023
+
+Johannes Kepler University Linz, Linz, November 2022
 
 International Conference on Isogeometric Analysis, Banff, November 2022
 <!--http://iga2022.usacm.org/)-->
@@ -62,6 +66,8 @@ INdAM workshop - Approximation Theory and Numerical Analysis meet Algebra, Geome
 Functional Analysis, Approximation Theory and Numerical Analysis, Matera, July 2022
 
 International conference on Curves and Surfaces, Arcachon, June 2022
+
+University of Rome Tor Vergata, Rome, April 2022
 
 Dagstuhl Workshop - Geometric Modeling: Interoperability and New Challenges, Dagstuhl, November 2021
 
