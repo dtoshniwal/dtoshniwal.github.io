@@ -34,6 +34,11 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 <h2 class="message" align="center">Scientific publications</h2>
 <h3 align="center">Preprints</h3>
 
+* <i>A characterization of linear independence of THB-splines in ℝ<sup>n</sup> and application to B´ezier projection.</i>
+<br>
+K. Dijkstra and D. Toshniwal.
+
+
 * <i>Locally-verifiable sufficient conditions for exactness of the hierarchical B-spline discrete de Rham complex in ℝ<sup>n</sup>.</i>
 <br>
 K. Shepherd and D. Toshniwal.
