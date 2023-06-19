@@ -40,14 +40,19 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 [SIAM Conference on Applied Algebraic Geometry](https://www.win.tue.nl/siam-ag23/index.html), Eindhoven, July 2023
 
-[Conference on Geometry: Theory and Applications](http://www.ag.jku.at/conferences/cgta2023/index.shtml), Schloss Weinberg, June 2023
+[Structure preserving numerical methods for partial differential equations](https://suprenumpde2023.epfl.ch/), Lausanne, July 2023
 
-[9th International Workshop on High-Order Finite Element and Isogeometric Methods](https://cyprusconferences.org/hofeim2023/), Larnaca, May 2023
-
-[International Conference on Approximation Theory and Beyond](https://my.vanderbilt.edu/nashville2023/), Nashville, (postponed to) May 2023
-
+[SIAM Conference on Computational Geometric Design](https://www.siam.org/conferences/cm/conference/gd23), Genova, July 2023
 
 <h2 class="message" align="center">Past conferences and talks (2017 onwards)</h2>
+
+Conference on Geometry: Theory and Applications, Schloss Weinberg, June 2023
+<!--(http://www.ag.jku.at/conferences/cgta2023/index.shtml)-->
+
+9th International Workshop on High-Order Finite Element and Isogeometric Methods, Larnaca, May 2023
+<!--(https://cyprusconferences.org/hofeim2023/)-->
+
+<!--[International Conference on Approximation Theory and Beyond](https://my.vanderbilt.edu/nashville2023/), Nashville, (postponed to) May 2023-->
 
 University of Pavia and IMATI, Pavia, April 2023
 
