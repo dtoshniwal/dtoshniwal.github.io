@@ -11,6 +11,8 @@ title: About
 Numerical Analysis, Delft Institute of Applied Mathematics
 <br>
 Delft University of Technology, The Netherlands
+<br>
+<br>
 
 <h2 class="message" align="center">Education</h2>
 <br>
