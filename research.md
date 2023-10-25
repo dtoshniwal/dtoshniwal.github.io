@@ -34,6 +34,12 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 <h2 class="message" align="center">Scientific publications</h2>
 <h3 align="center">Preprints</h3>
 
+* <i>A comparison of smooth basis constructions for isogeometric analysis.</i>
+<br>
+H.M. Verhelst, P. Weinmüller, A. Mantzaflaris, T. Takacs and D. Toshniwal.
+<br>
+[arXiv:2309.04405 (math.NA)](https://arxiv.org/abs/2309.04405/)
+
 * <i>A characterization of linear independence of THB-splines in ℝ<sup>n</sup> and application to B´ezier projection.</i>
 <br>
 K. Dijkstra and D. Toshniwal.
