@@ -43,7 +43,8 @@ H.M. Verhelst, P. Weinmüller, A. Mantzaflaris, T. Takacs and D. Toshniwal.
 * <i>A characterization of linear independence of THB-splines in ℝ<sup>n</sup> and application to B´ezier projection.</i>
 <br>
 K. Dijkstra and D. Toshniwal.
-
+<br>
+[arXiv:2310.16537 (math.NA)](https://arxiv.org/abs/2310.16537/)
 
 * <i>Locally-verifiable sufficient conditions for exactness of the hierarchical B-spline discrete de Rham complex in ℝ<sup>n</sup>.</i>
 <br>
