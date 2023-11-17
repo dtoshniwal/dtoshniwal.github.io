@@ -68,21 +68,21 @@ Computer Methods in Applied Mechanics and Engineering, 403 A, Article 115640, 20
 D. Toshniwal and N. Villamizar.
 <br>
 Advances in Applied Mathematics, 142, Article 102412, 2023.
-[paper (open access)](https://www.sciencedirect.com/science/article/pii/S0196885822000963)
+[paper (open access)](https://doi.org/10.1016/j.aam.2022.102412)
 
 * <i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes.</i>
 <br>
 K.J. Koh, D. Toshniwal and F. Cirak.
 <br>
 Computer Methods in Applied Mechanics and Engineering, 399, Article 115438, 2022.
-[paper](https://www.sciencedirect.com/science/article/abs/pii/S0045782522004819), [preprint](https://arxiv.org/abs/2111.04401)
+[paper](https://doi.org/10.1016/j.cma.2022.115438), [preprint](https://arxiv.org/abs/2111.04401)
 
 * <i>Quadratic splines on quad-tri meshes: Construction and an application to simulations on watertight reconstructions of trimmed surfaces.</i>
 <br>
 D. Toshniwal.
 <br>
 Computer Methods in Applied Mechanics and Engineering, 388, Article 114174, 2022.
-[paper (open access)](https://www.sciencedirect.com/science/article/pii/S0045782521005053)
+[paper (open access)](https://doi.org/10.1016/j.cma.2021.114174)
 
 * <i>Isogeometric discrete differential forms: Non-uniform degrees, Bezier extraction, polar splines and flows on surfaces.</i>
 <br>
