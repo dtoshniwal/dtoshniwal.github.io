@@ -252,7 +252,7 @@ GEM
       unf_ext
     unf_ext (0.0.8.2)
     unicode-display_width (1.8.0)
-    webrick (1.7.0)
+    webrick (1.8.2)
     zeitwerk (2.6.12)
 
 PLATFORMS
@@ -264,7 +264,7 @@ DEPENDENCIES
   commonmarker (>= 0.23.4)
   github-pages
   octokit (= 4.25.0)
-  webrick (~> 1.7)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.2.3
