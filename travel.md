@@ -36,15 +36,28 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 <h2 class="message" align="center">Upcoming conferences</h2>
 
-[Advances in Computational Mechanics](https://sites.google.com/usacm.org/acm2023), Austin, October 2023
 
-[SIAM Conference on Applied Algebraic Geometry](https://www.win.tue.nl/siam-ag23/index.html), Eindhoven, July 2023
+[Fourth International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability](https://smart2025.unirc.it/), Reggio Calabria, September 2025
 
-[Structure preserving numerical methods for partial differential equations](https://suprenumpde2023.epfl.ch/), Lausanne, July 2023
+[International Conference on Isogeometric Analysis](https://iga2025.cimne.com/), Eindhoven, September 2025
 
-[SIAM Conference on Computational Geometric Design](https://www.siam.org/conferences/cm/conference/gd23), Genova, July 2023
+INdAM Workshop - Fast Methods for Isogeometric Analysis, Rome, May 2025 
+
+[BIRS Workshop - Geometric Mechanics Formulations for Continuum Mechanics](https://workshops.birs.ca/events/25w5441), Banff, March 2025
 
 <h2 class="message" align="center">Past conferences and talks (2017 onwards)</h2>
+
+International conference on Mathematical Methods for Curves and Surfaces, Oslo, June 2024 
+
+European Congress on Computational Methods in Applied Sciences and Engineering, Lisboa, June 2024
+
+BIRS Workshop - Homological Perspective on Splines and Finite Elements, Banff, May 2024
+
+SIAM Conference on Applied Algebraic Geometry, Eindhoven, July 2023
+
+EPFL Workshop - Structure preserving numerical methods for partial differential equations, Lausanne, July 2023
+
+SIAM Conference on Computational Geometric Design, Genova, July 2023
 
 Conference on Geometry: Theory and Applications, Schloss Weinberg, June 2023
 <!--(http://www.ag.jku.at/conferences/cgta2023/index.shtml)-->
@@ -113,6 +126,13 @@ SIAM Conference on Industrial and Applied Geometry, Pittsburgh, July 2017
 International Conference on Finite Elements in Flow Problems, Rome, April 2017
 
 <h2 class="message" align="center">Other travel</h2>
+
+Isogeometric Analysis: Theory, Applications and New Trends, Lake Como School
+of Advanced Studies, Como, 2024
+
+University of Rome Tor Vergata, Rome, 2024
+
+University of Pavia and IMATI, Pavia, 2023
 
 Johannes Kepler University Linz, Linz, 2022
 

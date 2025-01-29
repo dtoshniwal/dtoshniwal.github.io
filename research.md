@@ -32,7 +32,21 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 
 <h2 class="message" align="center">Scientific publications</h2>
-<!--<h3 align="center">Preprints</h3>-->
+
+<h3 align="center">Preprints</h3>
+
+* <i>Isogeometric de Rham complex discretization in solid toroidal domains.</i>
+<br>
+F. Patrizi and D. Toshniwal.
+<br>
+[arXiv:2106.10470 (math.NA)](https://arxiv.org/abs/2106.10470)
+
+* <i>Decoupled structure-preserving discretization of incompressible MHD equations with general boundary conditions.</i>
+<br>
+Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.
+<br>
+[arXiv:2410.23973 (math.NA)](https://arxiv.org/abs/2410.23973)
+
 
 <h3 align="center">Published/Accepted</h3>
 
@@ -40,9 +54,9 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 <br>
 K. Shepherd and D. Toshniwal.
 <br>
-Foundations of Computational Mathematics (accepted).
+Foundations of Computational Mathematics, 2024.
 <br>
-[arXiv:2209.01504 (math.NA)](https://arxiv.org/abs/2209.01504/)
+[paper (open access)](https://doi.org/10.1007/s10208-024-09659-6)
 
 
 * <i>A characterization of linear independence of THB-splines in ℝ<sup>n</sup> and application to B´ezier projection.</i>
