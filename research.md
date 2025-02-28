@@ -69,9 +69,9 @@ Foundations of Computational Mathematics, 2024.
 <br>
 K. Dijkstra and D. Toshniwal.
 <br>
-Springer INdAM series: Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology (accepted).
+Springer INdAM series: Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology, 2024.
 <br>
-[arXiv:2310.16537 (math.NA)](https://arxiv.org/abs/2310.16537/)
+[paper](https://link.springer.com/chapter/10.1007/978-981-97-6508-9_6)
 
 * <i>A comparison of smooth basis constructions for isogeometric analysis.</i>
 <br>
