@@ -35,6 +35,12 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 <h3 align="center">Preprints</h3>
 
+* <i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i>
+<br>
+D. Cabanas, K. Shepherd, D. Toshniwal and R. Vazquez.
+<br>
+[arXiv:2502.19542 (math.NA)](https://arxiv.org/abs/2502.19542)
+
 * <i>Isogeometric de Rham complex discretization in solid toroidal domains.</i>
 <br>
 F. Patrizi and D. Toshniwal.
