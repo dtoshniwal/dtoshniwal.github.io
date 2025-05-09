@@ -36,16 +36,17 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 <h2 class="message" align="center">Upcoming conferences</h2>
 
+TSIMF Workshop: Finite Element Tensor Calculus, Sanya, January 2026
 
 [Fourth International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability](https://smart2025.unirc.it/), Reggio Calabria, September 2025
 
 [International Conference on Isogeometric Analysis](https://iga2025.cimne.com/), Eindhoven, September 2025
 
+<h2 class="message" align="center">Past conferences and talks (2017 onwards)</h2>
+
 INdAM Workshop - Fast Methods for Isogeometric Analysis, Rome, May 2025 
 
-[BIRS Workshop - Geometric Mechanics Formulations for Continuum Mechanics](https://workshops.birs.ca/events/25w5441), Banff, March 2025
-
-<h2 class="message" align="center">Past conferences and talks (2017 onwards)</h2>
+BIRS Workshop - Geometric Mechanics Formulations for Continuum Mechanics, Banff, March 2025
 
 International conference on Mathematical Methods for Curves and Surfaces, Oslo, June 2024 
 
