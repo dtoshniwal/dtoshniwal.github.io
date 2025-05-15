@@ -35,6 +35,10 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 <h3 align="center">Preprints</h3>
 
+* <i>Marcro-element refinement schemes for Bezier projection with Truncated Hierarchical B-splines</i>
+<br>
+K. Dijkstra, C. Giannelli and D. Toshniwal.
+
 * <i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i>
 <br>
 D. Cabanas, K. Shepherd, D. Toshniwal and R. Vazquez.
