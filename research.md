@@ -247,7 +247,7 @@ Spectral and High Order Methods for Partial Differential Equations, Springer, Ch
 
 <h2 class="message" align="center">Other writings</h2>
 
-<i>Structure-Preserving Finite Element Methods.</i>
+* <i>Structure-Preserving Finite Element Methods.</i>
 <br>
 A. Palha and D. Toshniwal.
 <br>
