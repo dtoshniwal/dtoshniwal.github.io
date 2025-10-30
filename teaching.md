@@ -8,7 +8,7 @@ title: Teaching
 
 
 <span style="font-weight:bold">2025-2026</span>
-Numerical Maths
+* Numerical Maths
 * Applied Finite Elements
 
 <span style="font-weight:bold">2024-2025</span>

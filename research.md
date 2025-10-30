@@ -247,6 +247,12 @@ Spectral and High Order Methods for Partial Differential Equations, Springer, Ch
 
 <h2 class="message" align="center">Other writings</h2>
 
+<i>Structure-Preserving Finite Element Methods.</i>
+<br>
+A. Palha and D. Toshniwal.
+<br>
+European Research Community on Flow, Turbulence and Combustion, Bulletin 142, 2025. [link; please email me for access](https://www.ercoftac.org/publications/ercoftac_bulletin/bulletin-143/)
+
 * <i>Guest editorial for special issue: Design for Advanced Manufacturing.</i>
 <br>
 Y.F. Zhao, S. Elgeti, J. Guest, C. McComb, J. Norato and D. Toshniwal.
