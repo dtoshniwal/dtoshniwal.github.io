@@ -6,6 +6,14 @@ title: Teaching
 <br>
 <h2 class="message" align="center">Delft University of Technology</h2>
 
+
+<span style="font-weight:bold">2025-2026</span>
+Numerical Maths
+* Applied Finite Elements
+
+<span style="font-weight:bold">2024-2025</span>
+* Applied Finite Elements
+
 <span style="font-weight:bold">2023-2024</span>
 * Calculus
 * Applied Finite Elements

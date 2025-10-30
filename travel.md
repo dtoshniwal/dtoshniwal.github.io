@@ -36,13 +36,21 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 <h2 class="message" align="center">Upcoming conferences</h2>
 
+Curves and Surfaces, Malo, June 2026
+
+HOFEIM Workshop 2026, Siena, May 2026
+
+ESI Thematic Programme: Differential Complexes - Theory, Discretization, and Applications, May 2026
+
 TSIMF Workshop: Finite Element Tensor Calculus, Sanya, January 2026
 
-[Fourth International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability](https://smart2025.unirc.it/), Reggio Calabria, September 2025
-
-[International Conference on Isogeometric Analysis](https://iga2025.cimne.com/), Eindhoven, September 2025
-
 <h2 class="message" align="center">Past conferences and talks (2017 onwards)</h2>
+
+RICAM Workshop - Advances in Isogeometric Analysis, Linz, October 2025
+
+Fourth International Conference on Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability, Reggio Calabria, September 2025
+
+International Conference on Isogeometric Analysis, Eindhoven, September 2025
 
 INdAM Workshop - Fast Methods for Isogeometric Analysis, Rome, May 2025 
 
