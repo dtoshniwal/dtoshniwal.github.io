@@ -31,6 +31,14 @@ title: Research
 For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw).
 
 
+<h2 class="message" align="center">Open-source software</h2>
+<p align="center">
+<a href="https://doi.org/10.5281/zenodo.17495871">
+  <img src="{{ site.baseurl}}/research_imgs/mantis_logo.png" width="120" alt="Mantis.jl">
+</a>
+</p>
+
+
 <h2 class="message" align="center">Scientific publications</h2>
 
 <h3 align="center">Preprints</h3>
