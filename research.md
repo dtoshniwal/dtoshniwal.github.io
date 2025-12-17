@@ -35,7 +35,15 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 <h3 align="center">Preprints</h3>
 
-* <i>Macro-element Refinement schemes for THB-Splines: Applications to Bézier Projection and Structure-Preserving Discretizationsi.</i>
+* <i>Structure-preserving variational multiscale stabilization for the incompressible Navier-Stokes equations.</i>
+<br>
+K. Dijkstra and D. Toshniwal.
+<br>
+[arXiv:2512.14231 (math.NA)](https://arxiv.org/abs/2512.14231)
+
+
+
+* <i>Macro-element Refinement schemes for THB-Splines: Applications to Bézier Projection and Structure-Preserving Discretizations.</i>
 <br>
 K. Dijkstra, C. Giannelli and D. Toshniwal.
 <br>
