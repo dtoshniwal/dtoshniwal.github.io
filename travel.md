@@ -42,6 +42,10 @@ HOFEIM Workshop 2026, Siena, May 2026
 
 ESI Thematic Programme: Differential Complexes - Theory, Discretization, and Applications, May 2026
 
+Julia4PDEs 2026, Amsterdam, March 2026
+
+NDNS+ Annual Meeting, Amsterdam, March 2026
+
 TSIMF Workshop: Finite Element Tensor Calculus, Sanya, January 2026
 
 <h2 class="message" align="center">Past conferences and talks (2017 onwards)</h2>
