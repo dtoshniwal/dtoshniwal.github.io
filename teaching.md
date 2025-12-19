@@ -8,6 +8,7 @@ title: Teaching
 
 
 <span style="font-weight:bold">2025-2026</span>
+* Linear Algebra
 * Numerical Maths
 * Applied Finite Elements
 
