@@ -62,7 +62,7 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.
 
 <h3 align="center">Published/Accepted</h3>
 
-* <i>Macro-element Refinement schemes for THB-Splines: Applications to Bézier Projection and Structure-Preserving Discretizations.</i>
+* <i>Macro-element refinement schemes for THB-splines: Applications to Bézier projection and structure-preserving discretizations.</i>
 <br>
 K. Dijkstra, C. Giannelli and D. Toshniwal.
 <br>
