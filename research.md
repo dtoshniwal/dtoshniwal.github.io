@@ -41,14 +41,6 @@ K. Dijkstra and D. Toshniwal.
 <br>
 [arXiv:2512.14231 (math.NA)](https://arxiv.org/abs/2512.14231)
 
-
-
-* <i>Macro-element Refinement schemes for THB-Splines: Applications to Bézier Projection and Structure-Preserving Discretizations.</i>
-<br>
-K. Dijkstra, C. Giannelli and D. Toshniwal.
-<br>
-[arXiv:2510.21429 (math.NA)](https://arxiv.org/abs/2510.21429v1)
-
 * <i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i>
 <br>
 D. Cabanas, K. Shepherd, D. Toshniwal and R. Vazquez.
@@ -69,6 +61,13 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.
 
 
 <h3 align="center">Published/Accepted</h3>
+
+* <i>Macro-element Refinement schemes for THB-Splines: Applications to Bézier Projection and Structure-Preserving Discretizations.</i>
+<br>
+K. Dijkstra, C. Giannelli and D. Toshniwal.
+<br>
+Computer Methods in Applied Mechanics and Engineering (accepted).
+[preprint](https://arxiv.org/abs/2510.21429v1)
 
 * <i>Locally-verifiable sufficient conditions for exactness of the hierarchical B-spline discrete de Rham complex in ℝ<sup>n</sup>.</i>
 <br>
