@@ -66,8 +66,8 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.
 <br>
 K. Dijkstra, C. Giannelli and D. Toshniwal.
 <br>
-Computer Methods in Applied Mechanics and Engineering (accepted).
-[preprint](https://arxiv.org/abs/2510.21429v1)
+Computer Methods in Applied Mechanics and Engineering, 452A, Article 118707, 2026.
+[paper (open access)](https://doi.org/10.1016/j.cma.2025.118707)
 
 * <i>Locally-verifiable sufficient conditions for exactness of the hierarchical B-spline discrete de Rham complex in ℝ<sup>n</sup>.</i>
 <br>
