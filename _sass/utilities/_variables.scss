@@ -10,31 +10,69 @@ $font-size-mobile: 15px;
 
 $code-font-stack: 'Source Code Pro', monospace;
 
+:root {
+  --body-text-color: #515151;
+  --body-background-color: #ffffff;
+  --body-top-border-color: #0A3b76;
+  --link-color: #5a81b0;
+  --nav-link-color: #263663;
+  --nav-link-underline-color: #2098d1;
+  --nav-icon-color: #ffffff;
+  --nav-icon-background-color: #0A3b76;
+  --post-title-color: #0A3b76;
+  --post-date-color: #9a9a9a;
+  --message-color: #717171;
+  --message-background-color: #f9f9f9;
+  --table-border-color: #e5e5e5;
+  --table-stripe-background: #f9f9f9;
+}
+
+[data-theme="dark"] {
+  --body-text-color: #e0e0e0;
+  --body-background-color: #121212;
+  --body-top-border-color: #4a86cf;
+  --link-color: #8ab6e1;
+  --nav-link-color: #d0d6e6;
+  --nav-link-underline-color: #29b6f6;
+  --nav-icon-color: #121212;
+  --nav-icon-background-color: #4a86cf;
+  --post-title-color: #4a86cf;
+  --post-date-color: #b0b0b0;
+  --message-color: #e0e0e0;
+  --message-background-color: #1e1e1e;
+  --table-border-color: #333333;
+  --table-stripe-background: #1e1e1e;
+}
+
 // Body
-$body-text-color: #515151;
-$body-background-color: #ffffff;
-$body-top-border-color: #0A3b76;
+$body-text-color: var(--body-text-color);
+$body-background-color: var(--body-background-color);
+$body-top-border-color: var(--body-top-border-color);
 $body-top-border-width: 5px;
 
 // Links
-$link-color: #5a81b0;
+$link-color: var(--link-color);
 
 // Navigation
 $nav-bottom-border-color: #c0c0c0;
 $nav-bottom-border-width: 1px;
 
-$nav-link-color: #263663;
+$nav-link-color: var(--nav-link-color);
 $nav-link-padding-y: 0.7rem;
 $nav-link-padding-x: 1.5rem;
-$nav-link-underline-color: #2098d1;
+$nav-link-underline-color: var(--nav-link-underline-color);
 
-$nav-icon-color: #ffffff;
-$nav-icon-background-color: #0A3b76;
+$nav-icon-color: var(--nav-icon-color);
+$nav-icon-background-color: var(--nav-icon-background-color);
 
 // Blog post headings and page titles
-$post-title-color: #0A3b76;
-$post-date-color: #9a9a9a;
+$post-title-color: var(--post-title-color);
+$post-date-color: var(--post-date-color);
 
 // Message box
-$message-color: #717171;
-$message-background-color: #f9f9f9;
+$message-color: var(--message-color);
+$message-background-color: var(--message-background-color);
+
+// Tables
+$table-border-color: var(--table-border-color);
+$table-stripe-background: var(--table-stripe-background);

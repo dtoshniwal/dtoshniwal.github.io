@@ -4,6 +4,15 @@
   {% include head.html %}
 
   <body>
+    <script>
+      (function() {
+        var storedTheme = localStorage.getItem('theme');
+        var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (storedTheme === 'dark' || (!storedTheme && prefersDark)) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+        }
+      })();
+    </script>
     <nav class="nav-main">
       <ul>
         <!--<li class="hvr-underline-reveal"><a href="{{
@@ -21,6 +30,7 @@
             site.baseurl}}/photos/">photos</a></li>
         <li class="hvr-underline-reveal"><a href="{{
             site.baseurl}}/blog/">blog/updates</a></li>
+        <li class="theme-toggle"><a id="theme-toggle" href="#" title="Toggle Dark Mode" style="cursor: pointer;">🌙</a></li>
       </ul>
     </nav>
 
@@ -44,5 +54,19 @@
       </footer>
     </div>
 
+    <script>
+      document.getElementById('theme-toggle').addEventListener('click', function(e) {
+        e.preventDefault();
+        var currentTheme = document.documentElement.getAttribute('data-theme');
+        var targetTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', targetTheme);
+        localStorage.setItem('theme', targetTheme);
+        this.innerHTML = targetTheme === 'dark' ? '☀️' : '🌙';
+      });
+      // Set initial icon
+      if (document.documentElement.getAttribute('data-theme') === 'dark') {
+        document.getElementById('theme-toggle').innerHTML = '☀️';
+      }
+    </script>
   </body>
 </html>
