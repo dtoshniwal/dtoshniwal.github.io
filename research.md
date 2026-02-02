@@ -6,7 +6,7 @@ title: Research
 
 <div id="gallery-container">
     <div class='textblock'>
-        <img src="{{ site.baseurl}}/research_imgs/spl.png" class="gallery-thumb" />
+        <img src="{{ site.baseurl}}/research_imgs/tension.gif" class="gallery-thumb" style="width: 230px; height: auto" />
         <ul style="list-style-type:none;">
         	<li class="hover-item">Multivariate splines <img src="{{ site.baseurl}}/research_imgs/mspl.png" class="gallery-fullsize" /></li>
         	<li class="hover-item">Isogeometric analysis <img src="{{ site.baseurl}}/research_imgs/iga_alt.png" class="gallery-fullsize" /> </li>
