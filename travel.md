@@ -33,8 +33,7 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 <h2 class="message" align="center">Participation (since 2017)</h2>-->
 <br>
 
-
-<h2 class="message" align="center">Upcoming conferences</h2>
+<h2 class="message" align="center">Conferences and workshops (2017 onwards)</h2>
 
 Curves and Surfaces, Malo, June 2026
 
@@ -47,8 +46,6 @@ Julia4PDEs 2026, Amsterdam, March 2026
 NDNS+ Annual Meeting, Amsterdam, March 2026
 
 TSIMF Workshop: Finite Element Tensor Calculus, Sanya, January 2026
-
-<h2 class="message" align="center">Past conferences and talks (2017 onwards)</h2>
 
 RICAM Workshop - Advances in Isogeometric Analysis, Linz, October 2025
 
