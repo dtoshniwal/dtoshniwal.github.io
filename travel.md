@@ -137,6 +137,8 @@ International Conference on Finite Elements in Flow Problems, Rome, April 2017
 
 <h2 class="message" align="center">Other travel</h2>
 
+DFG Research Group 5492: Spring Meeting, Hinterstoder, 2026 
+
 Isogeometric Analysis: Theory, Applications and New Trends, Lake Como School
 of Advanced Studies, Como, 2024
 
