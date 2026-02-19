@@ -32,7 +32,7 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 <h2 class="message" align="center">Open-source software</h2>
 <p align="center">
-<a href="https://doi.org/10.5281/zenodo.17495871">
+<a href="https://doi.org/10.5281/zenodo.17495870">
   <img src="{{ site.baseurl}}/research_imgs/mantis_logo.png" width="280" alt="Mantis.jl">
 </a>
 </p>
