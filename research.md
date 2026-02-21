@@ -42,6 +42,10 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 <h3 align="center">Preprints</h3>
 
+* <i>Isogeometric discrete differential forms with Tchebycheffian B-splines.</i>
+<br>
+C. Manni, H. Speleers and D. Toshniwal.
+
 * <i>Structure-preserving variational multiscale stabilization for the incompressible Navier-Stokes equations.</i>
 <br>
 K. Dijkstra and D. Toshniwal.
