@@ -42,6 +42,10 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 <h3 align="center">Preprints</h3>
 
+* <i>Weakly-C<sup>1</sup> solutions to the biharmonic problem.</i>
+<br>
+J. Dekker, A. Palha and D. Toshniwal.
+
 * <i>Isogeometric discrete differential forms with Tchebycheffian B-splines.</i>
 <br>
 C. Manni, H. Speleers and D. Toshniwal.
