@@ -56,12 +56,6 @@ K. Dijkstra and D. Toshniwal.
 <br>
 [arXiv:2512.14231 (math.NA)](https://arxiv.org/abs/2512.14231)
 
-* <i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i>
-<br>
-D. Cabanas, K. Shepherd, D. Toshniwal and R. Vazquez.
-<br>
-[arXiv:2502.19542 (math.NA)](https://arxiv.org/abs/2502.19542)
-
 * <i>Isogeometric de Rham complex discretization in solid toroidal domains.</i>
 <br>
 F. Patrizi and D. Toshniwal.
@@ -76,6 +70,13 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.
 
 
 <h3 align="center">Published/Accepted</h3>
+
+* <i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i>
+<br>
+D. Cabanas, K. Shepherd, D. Toshniwal and R. Vazquez.
+<br>
+SIAM Journal of Scientific Computing (to appear), 2026.
+[arXiv:2502.19542 (math.NA)](https://arxiv.org/abs/2502.19542)
 
 * <i>Macro-element refinement schemes for THB-splines: Applications to Bézier projection and structure-preserving discretizations.</i>
 <br>
