@@ -1,2 +1,12 @@
-*.DS_Store
-_site/*
+# OS
+.DS_Store
+
+# build output
+dist/
+_site/
+
+# dependencies
+node_modules/
+
+# astro
+.astro/
