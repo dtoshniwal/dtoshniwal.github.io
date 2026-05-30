@@ -4,7 +4,18 @@ title: Photos
 ---
 <div class="text-center">
 
-
+<figure>
+    <p><img src="./hofeim_2026.jpg" alt="HOFEIM 2026" style="width:500px" class="center-img"></p>
+    <figcaption><small>May 2026, workshop on High-Order Finite Element and Isogeometric Methods at the beautiful Santa Maria della Scala in Siena.</small></figcaption>
+</figure>
+<figure>
+    <p><img src="./ESI_group_photo.jpeg" alt="Differential complexes" style="width:500px" class="center-img"></p>
+    <figcaption><small>May 2026, workshop on Differential Complexes at the Erwin Schrödinger Institute in Vienna.</small></figcaption>
+</figure>
+<figure>
+    <p><img src="./Rome_2026.jpeg" alt="Roman lunch" style="width:500px" class="center-img"></p>
+    <figcaption><small>April 2026, a Roman lunch. From left to right: Mariarosa, Francesco, Hendrik, Deepesh, Carlo, Carla and Cristina.</small></figcaption>
+</figure>
 <figure>
     <p><img src="./banff_2022.jpeg" alt="With the finite element bear" style="width:500px" class="center-img"></p>
     <figcaption><small>November 2022, visiting the finite element bear in Banff during the Isogeometric Analysis conference. From left to right: Rafael Vazquez, Michael Sacks, Jessica Zhang, Benjamin Marussig, Hendrik Speleers, Carlotta Giannelli, Annalisa Buffa, Deepesh Toshniwal, Angelos Mantzaflaris, Ale Reali, Thomas Elgued.</small></figcaption>

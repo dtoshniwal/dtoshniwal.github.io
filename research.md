@@ -26,9 +26,10 @@ title: Research
 <a href="https://www.tudelft.nl/en/ai/machina/">Scientific machine learning</a>
 -->
 
-<h2 class="message" align="center">Thesis options for students</h2>
+<h2 class="message" align="center">Thesis topics for students</h2>
 <br>
-For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw).
+Contact me for BSc and MSc thesis projects.
+Some open projects can be found on [this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw).
 
 <h2 class="message" align="center">Open-source software</h2>
 <p align="center">
@@ -42,19 +43,13 @@ For BSc and MSc thesis projects, [consult this list on Kees Vuik's webpage](http
 
 <h3 align="center">Preprints</h3>
 
-* <i>Weakly-C<sup>1</sup> solutions to the biharmonic problem.</i>
+* <i>Weakly-C<sup>1</sup> solutions to the biharmonic problem on multi-patch domains.</i>
 <br>
 J. Dekker, A. Palha and D. Toshniwal.
 
 * <i>Isogeometric discrete differential forms with Tchebycheffian B-splines.</i>
 <br>
 C. Manni, H. Speleers and D. Toshniwal.
-
-* <i>Structure-preserving variational multiscale stabilization for the incompressible Navier-Stokes equations.</i>
-<br>
-K. Dijkstra and D. Toshniwal.
-<br>
-[arXiv:2512.14231 (math.NA)](https://arxiv.org/abs/2512.14231)
 
 * <i>Isogeometric de Rham complex discretization in solid toroidal domains.</i>
 <br>
@@ -70,6 +65,13 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.
 
 
 <h3 align="center">Published/Accepted</h3>
+
+* <i>Structure-preserving variational multiscale stabilization for the incompressible Navier-Stokes equations.</i>
+<br>
+K. Dijkstra and D. Toshniwal.
+<br>
+Computer Methods in Applied Mechanics and Engineering (to appear), 2026.
+[arXiv:2512.14231 (math.NA)](https://arxiv.org/abs/2512.14231)
 
 * <i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i>
 <br>

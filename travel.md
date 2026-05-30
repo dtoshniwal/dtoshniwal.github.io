@@ -35,6 +35,8 @@ X. Wei, T. Takacs, D. Toshniwal, Y.J. Zhang, H. Speleers, C. Manni, J. Peters
 
 <h2 class="message" align="center">Conferences and workshops (2017 onwards)</h2>
 
+Oberwolfach Workshop: Structure-preserving Methods for Computational Geometric Mechanics, Oberwolfach, April 2027
+
 Curves and Surfaces, Malo, June 2026
 
 HOFEIM Workshop 2026, Siena, May 2026
@@ -136,6 +138,8 @@ SIAM Conference on Industrial and Applied Geometry, Pittsburgh, July 2017
 International Conference on Finite Elements in Flow Problems, Rome, April 2017
 
 <h2 class="message" align="center">Other travel</h2>
+
+University of Rome Tor Vergata, Rome, 2026
 
 DFG Research Group 5492: Spring Meeting, Hinterstoder, 2026 
 
