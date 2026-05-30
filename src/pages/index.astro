@@ -1,0 +1,50 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+---
+
+<PageLayout meta={{ title: "Home" }}>
+	<section>
+		<div class="flex flex-col items-center text-center">
+			<figure class="mb-6">
+				<img
+					src="/mfo_picture.png"
+					alt="From the Archives of the Mathematisches Forschungsinstitut Oberwolfach"
+					class="mx-auto rounded-lg"
+					style="max-width: 500px; width: 100%;"
+				/>
+				<figcaption class="mt-2 text-sm text-gray-500">
+					Photo source: Archives of the Mathematisches Forschungsinstitut Oberwolfach
+				</figcaption>
+			</figure>
+
+			<div class="prose prose-cactus text-center">
+				<p>
+					Room 36.HB 03.290, Delft Institute of Applied Mathematics<br />
+					Delft University of Technology, The Netherlands<br />
+					<a href="mailto:d.toshniwal@tudelft.nl" class="cactus-link">d.toshniwal@tudelft.nl</a>
+				</p>
+			</div>
+
+			<div class="mt-6 flex flex-wrap justify-center gap-4">
+				<a
+					href="https://scholar.google.nl/citations?user=hxP-CxwAAAAJ&hl=en"
+					class="cactus-link inline-flex items-center gap-1"
+				>
+					Google Scholar
+				</a>
+				<a
+					href="https://orcid.org/0000-0002-7142-7904"
+					class="cactus-link inline-flex items-center gap-1"
+				>
+					ORCID: 0000-0002-7142-7904
+				</a>
+				<a
+					href="https://arxiv.org/a/toshniwal_d_1.html"
+					class="cactus-link inline-flex items-center gap-1"
+				>
+					arXiv
+				</a>
+			</div>
+		</div>
+	</section>
+</PageLayout>

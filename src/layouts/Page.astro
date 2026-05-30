@@ -1,0 +1,12 @@
+---
+import BaseLayout from "./Base.astro";
+
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout meta={{ title: frontmatter.title }}>
+	<h1 class="title mb-12">{frontmatter.title}</h1>
+	<div class="prose prose-sm prose-cactus max-w-none">
+		<slot />
+	</div>
+</BaseLayout>

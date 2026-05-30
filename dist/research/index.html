@@ -1,0 +1,337 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en-GB"> <head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><title>Research • Deepesh Toshniwal</title><link href="/dt.ico" rel="icon" type="image/x-icon"><link href="https://dtoshniwal.github.io/research/" rel="canonical"><meta content="Research • Deepesh Toshniwal" name="title"><meta content="Personal webpage of Deepesh Toshniwal" name="description"><meta content="Deepesh Toshniwal" name="author"><meta content="website" property="og:type"><meta content="Research" property="og:title"><meta content="Personal webpage of Deepesh Toshniwal" property="og:description"><meta content="https://dtoshniwal.github.io/research/" property="og:url"><meta content="Deepesh Toshniwal" property="og:site_name"><meta content="en_GB" property="og:locale"><meta content="https://dtoshniwal.github.io/social-card.png" property="og:image"><meta content="1200" property="og:image:width"><meta content="630" property="og:image:height"><meta content="summary_large_image" property="twitter:card"><meta content="https://dtoshniwal.github.io/research/" property="twitter:url"><meta content="Research" property="twitter:title"><meta content="Personal webpage of Deepesh Toshniwal" property="twitter:description"><meta content="https://dtoshniwal.github.io/social-card.png" property="twitter:image"><link href="/sitemap-index.xml" rel="sitemap"><link href="/rss.xml" title="Blog" rel="alternate" type="application/rss+xml"><link href="/notes/rss.xml" title="Notes" rel="alternate" type="application/rss+xml"><meta content="Astro v6.4.2" name="generator"><script>
+	const lightModePref = window.matchMedia("(prefers-color-scheme: light)");
+
+	function getUserPref() {
+		const storedTheme = typeof localStorage !== "undefined" && localStorage.getItem("theme");
+		return storedTheme || (lightModePref.matches ? "light" : "dark");
+	}
+
+	function setTheme(newTheme) {
+		if (newTheme !== "light" && newTheme !== "dark") {
+			return console.warn(
+				`Invalid theme value '${newTheme}' received. Expected 'light' or 'dark'.`,
+			);
+		}
+
+		const root = document.documentElement;
+
+		// root already set to newTheme, exit early
+		if (newTheme === root.getAttribute("data-theme")) {
+			return;
+		}
+
+		root.setAttribute("data-theme", newTheme);
+
+		if (typeof localStorage !== "undefined") {
+			localStorage.setItem("theme", newTheme);
+		}
+	}
+
+	// initial setup
+	setTheme(getUserPref());
+
+	// listen for pageshow event, browser restored page from bfcache
+	window.addEventListener("pageshow", (e) => {
+		if (e.persisted) {
+			setTheme(getUserPref());
+		}
+	});
+
+	// listen for theme-change custom event, fired in src/components/ThemeToggle.astro
+	document.addEventListener("theme-change", (e) => {
+		setTheme(e.detail.theme);
+	});
+
+	// listen for prefers-color-scheme change.
+	lightModePref.addEventListener("change", (e) => setTheme(e.matches ? "light" : "dark"));
+</script><link rel="stylesheet" href="/_astro/Base.CBlUWINB.css"></head> <body class="bg-global-bg text-global-text mx-auto flex min-h-screen max-w-3xl flex-col px-4 pt-16 font-mono text-sm font-normal antialiased sm:px-8"> <a class="sr-only focus:not-sr-only focus:fixed focus:start-1 focus:top-1.5" href="#main">skip to content
+</a> <header class="group relative mb-28 flex items-center sm:ps-18" id="main-header"> <div class="flex sm:flex-col"> <a aria-current="false" class="inline-flex items-center sm:relative sm:inline-block sm:grayscale sm:hover:filter-none" href="/"> <img src="/dt.ico" alt="Logo" class="me-3 h-8 w-8 sm:absolute sm:-start-18 sm:me-0 sm:h-12 sm:w-12 object-contain"> <span class="text-xl font-bold sm:text-2xl">Deepesh Toshniwal</span> </a> <nav aria-label="Main menu" class="bg-global-bg absolute -inset-x-4 top-12 hidden flex-col divide-y px-2 py-4 group-[.menu-open]:z-50 group-[.menu-open]:flex sm:static sm:z-auto sm:-ms-4 sm:mt-1 sm:flex sm:flex-row sm:divide-x sm:divide-y-0 sm:bg-transparent sm:p-0" id="navigation-menu"> <a aria-current="false" class="text-accent px-2 py-4 font-semibold sm:px-4 sm:py-0 sm:underline-offset-2 sm:hover:underline" href="/"> Home </a><a aria-current="false" class="text-accent px-2 py-4 font-semibold sm:px-4 sm:py-0 sm:underline-offset-2 sm:hover:underline" href="/about/"> About </a><a aria-current="page" class="text-accent px-2 py-4 font-semibold sm:px-4 sm:py-0 sm:underline-offset-2 sm:hover:underline" href="/research/"> Research </a><a aria-current="false" class="text-accent px-2 py-4 font-semibold sm:px-4 sm:py-0 sm:underline-offset-2 sm:hover:underline" href="/teaching/"> Teaching </a><a aria-current="false" class="text-accent px-2 py-4 font-semibold sm:px-4 sm:py-0 sm:underline-offset-2 sm:hover:underline" href="/travel/"> Travel </a><a aria-current="false" class="text-accent px-2 py-4 font-semibold sm:px-4 sm:py-0 sm:underline-offset-2 sm:hover:underline" href="/photos/"> Photos </a><a aria-current="false" class="text-accent px-2 py-4 font-semibold sm:px-4 sm:py-0 sm:underline-offset-2 sm:hover:underline" href="/posts/"> Blog </a> </nav> </div> <script type="module" src="/_astro/Search.astro_astro_type_script_index_0_lang.D5egCzIc.js"></script> <pagefind-config baseUrl="/" bundle-path="/pagefind/"></pagefind-config> <pagefind-modal-trigger id="search" class="ms-auto" hide-shortcut="true" compact="true"></pagefind-modal-trigger> <pagefind-modal></pagefind-modal> <theme-toggle class="ms-2 sm:ms-4"> <button class="hover:text-accent relative h-9 w-9 cursor-pointer p-2" type="button"> <span class="sr-only">Dark Theme</span> <svg aria-hidden="true" class="absolute inset-s-1/2 top-1/2 h-7 w-7 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-100 transition-all dark:scale-0 dark:opacity-0" fill="none" focusable="false" id="sun-svg" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M22 12L23 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 2V1" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M12 23V22" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M20 20L19 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M20 4L19 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M4 20L5 19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M4 4L5 5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M1 12L2 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path> </svg> <svg aria-hidden="true" class="absolute inset-s-1/2 top-1/2 h-7 w-7 -translate-x-1/2 -translate-y-1/2 scale-0 opacity-0 transition-all dark:scale-100 dark:opacity-100" fill="none" focusable="false" id="moon-svg" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M0 0h24v24H0z" fill="none" stroke="none"></path> <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path> <path d="M17 4a2 2 0 0 0 2 2a2 2 0 0 0 -2 2a2 2 0 0 0 -2 -2a2 2 0 0 0 2 -2"></path> <path d="M19 11h2m-1 -1v2"></path> </svg> </button> </theme-toggle> <script type="module" src="/_astro/ThemeToggle.astro_astro_type_script_index_0_lang.C1tldoqx.js"></script> <mobile-button> <button aria-expanded="false" aria-haspopup="menu" class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden" id="toggle-navigation-menu" type="button"> <span class="sr-only">Open main menu</span> <svg aria-hidden="true" class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0" fill="none" focusable="false" id="line-svg" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"></path> </svg> <svg aria-hidden="true" class="text-accent absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100" class="text-accent" fill="none" focusable="false" id="cross-svg" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path> </svg> </button> </mobile-button> </header> <script type="module" src="/_astro/Header.astro_astro_type_script_index_0_lang.DuSsDY4R.js"></script> <main id="main">  <h1 class="title mb-12">Research</h1> <div class="prose prose-sm prose-cactus max-w-none"> <h2 class="message" align="center">Interests</h2>
+<div class="interests-container" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+    <div class="interests-list" style="flex: 1 1 300px;">
+        <ul style="list-style-type:none; padding: 0; margin: 0; line-height: 2.5;">
+        	<li class="hover-item cursor-pointer text-link" data-img="/research_imgs/mspl.png">Multivariate splines</li>
+        	<li class="hover-item cursor-pointer text-link" data-img="/research_imgs/iga_alt.png">Isogeometric analysis</li>
+        	<li class="hover-item cursor-pointer text-link" data-img="/research_imgs/cagd.png">Computer-aided geometric design</li>
+        	<li class="hover-item cursor-pointer text-link" data-img="/research_imgs/sps.png">Structure-preserving discretizations</li>
+        	<li class="hover-item cursor-pointer text-link" data-img="/research_imgs/sml.png"><a href="https://www.tudelft.nl/en/ai/machina/">Scientific machine learning</a></li>
+        </ul>
+    </div>
+    <div class="interests-image" style="flex: 1 1 300px; display: flex; justify-content: center; height: 280px;">
+        <img id="dynamic-img" src="/research_imgs/tension.gif" style="max-width: 100%; height: 100%; object-fit: contain; border-radius: 8px;" alt="Research Interest">
+    </div>
+</div>
+<script>
+    const items = document.querySelectorAll('.hover-item');
+    const imgDisplay = document.getElementById('dynamic-img');
+    const defaultImg = '/research_imgs/tension.gif';
+
+    items.forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            if (imgDisplay) imgDisplay.src = item.getAttribute('data-img');
+        });
+        item.addEventListener('mouseleave', () => {
+            if (imgDisplay) imgDisplay.src = defaultImg;
+        });
+    });
+</script>
+<!--
+<a class="hover-img">Multivariate splines<img src="http://placehold.it/150x150" alt="image" height="170"></a>
+<a class="hover-img">Isogeometric Analysis<img src="http://placehold.it/150x150" alt="image" height="280"></a>
+<a class="hover-img">Computer-aided geometric design<img src="http://placehold.it/150x150" alt="image" height="280"></a>
+
+<a class="hover-img">Structure-preserving discretizations<img src="http://placehold.it/150x150" alt="image" height="170"></a>
+<a href="https://www.tudelft.nl/en/ai/machina/">Scientific machine learning</a>
+-->
+<h2 class="message" align="center">Thesis topics for students</h2><br>
+Contact me for BSc and MSc thesis projects.
+Some open projects can be found on [this list on Kees Vuik's webpage](http://ta.twi.tudelft.nl/users/vuik/afstudeer_eng.html#nieuw).
+<h2 class="message" align="center">Open-source software</h2>
+<p align="center">
+<a href="https://doi.org/10.5281/zenodo.17495870">
+  <img src="/research_imgs/mantis_logo.png" width="280" alt="Mantis.jl">
+</a>
+</p>
+<h2 class="message" align="center">Scientific publications</h2>
+<h3 align="center">Preprints</h3>
+<ul>
+<li>
+<p><i>Weakly-C<sup>1</sup> solutions to the biharmonic problem on multi-patch domains.</i><br>
+J. Dekker, A. Palha and D. Toshniwal.</p>
+</li>
+<li>
+<p><i>Isogeometric discrete differential forms with Tchebycheffian B-splines.</i><br>
+C. Manni, H. Speleers and D. Toshniwal.</p>
+</li>
+<li>
+<p><i>Isogeometric de Rham complex discretization in solid toroidal domains.</i><br>
+F. Patrizi and D. Toshniwal.<br>
+<a href="https://arxiv.org/abs/2106.10470" rel="noreferrer noopener" target="_blank">arXiv:2106
+.10470 (math.NA)</a></p>
+</li>
+<li>
+<p><i>Decoupled structure-preserving discretization of incompressible MHD equations with general boundary conditions.</i><br>
+Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.<br>
+<a href="https://arxiv.org/abs/2410.23973" rel="noreferrer noopener" target="_blank">arXiv:2410
+.23973 (math.NA)</a></p>
+</li>
+</ul>
+<h3 align="center">Published/Accepted</h3>
+<ul>
+<li>
+<p><i>Structure-preserving variational multiscale stabilization for the incompressible Navier-Stokes equations.</i><br>
+K. Dijkstra and D. Toshniwal.<br>
+Computer Methods in Applied Mechanics and Engineering (to appear), 2026.
+<a href="https://arxiv.org/abs/2512.14231" rel="noreferrer noopener" target="_blank">arXiv:2512
+.14231 (math.NA)</a></p>
+</li>
+<li>
+<p><i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i><br>
+D. Cabanas, K. Shepherd, D. Toshniwal and R. Vazquez.<br>
+SIAM Journal of Scientific Computing (to appear), 2026.
+<a href="https://arxiv.org/abs/2502.19542" rel="noreferrer noopener" target="_blank">arXiv:2502
+.19542 (math.NA)</a></p>
+</li>
+<li>
+<p><i>Macro-element refinement schemes for THB-splines: Applications to Bézier projection and structure-preserving discretizations.</i><br>
+K. Dijkstra, C. Giannelli and D. Toshniwal.<br>
+Computer Methods in Applied Mechanics and Engineering, 452A, Article 118707, 2026.
+<a href="https://doi.org/10.1016/j.cma.2025.118707" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>Locally-verifiable sufficient conditions for exactness of the hierarchical B-spline discrete de Rham complex in ℝ<sup>n</sup>.</i><br>
+K. Shepherd and D. Toshniwal.<br>
+Foundations of Computational Mathematics, 2024.
+<a href="https://doi.org/10.1007/s10208-024-09659-6" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>A characterization of linear independence of THB-splines in ℝ<sup>n</sup> and application to B´ezier projection.</i><br>
+K. Dijkstra and D. Toshniwal.<br>
+Springer INdAM series: Approximation Theory and Numerical Analysis meet Algebra, Geometry, Topology, 2024.
+<a href="https://link.springer.com/chapter/10.1007/978-981-97-6508-9_6" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>A comparison of smooth basis constructions for isogeometric analysis.</i><br>
+H.M. Verhelst, P. Weinmüller, A. Mantzaflaris, T. Takacs and D. Toshniwal.<br>
+Computer Methods in Applied Mechanics and Engineering, 419, Article 116659, 2024.
+<a href="https://doi.org/10.1016/j.cma.2023.116659" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>Almost C<sup>1</sup> splines: Biquadratic splines on unstructured quadrilateral meshes and their application to fourth order problems.</i><br>
+T. Takacs and D. Toshniwal.<br>
+Computer Methods in Applied Mechanics and Engineering, 403 A, Article 115640, 2023.
+<a href="https://doi.org/10.1016/j.cma.2022.115640" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>Algebraic methods to study the dimension of supersmooth spline spaces.</i><br>
+D. Toshniwal and N. Villamizar.<br>
+Advances in Applied Mathematics, 142, Article 102412, 2023.
+<a href="https://doi.org/10.1016/j.aam.2022.102412" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>An optimally convergent smooth blended B-spline construction for semi-structured quadrilateral and hexahedral meshes.</i><br>
+K.J. Koh, D. Toshniwal and F. Cirak.<br>
+Computer Methods in Applied Mechanics and Engineering, 399, Article 115438, 2022.
+<a href="https://doi.org/10.1016/j.cma.2022.115438" rel="noreferrer noopener" target="_blank">paper</a>, <a href="https://arxiv.org/abs/2111.04401" rel="noreferrer noopener" target="_blank">preprint</a></p>
+</li>
+<li>
+<p><i>Quadratic splines on quad-tri meshes: Construction and an application to simulations on watertight reconstructions of trimmed surfaces.</i><br>
+D. Toshniwal.<br>
+Computer Methods in Applied Mechanics and Engineering, 388, Article 114174, 2022.
+<a href="https://doi.org/10.1016/j.cma.2021.114174" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>Isogeometric discrete differential forms: Non-uniform degrees, Bezier extraction, polar splines and flows on surfaces.</i><br>
+D. Toshniwal and T.J.R. Hughes.<br>
+Computer Methods in Applied Mechanics and Engineering, 376, Article 113576, 2021.
+<a href="https://doi.org/10.1016/j.cma.2020.113576" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>Polynomial spline spaces of non-uniform bi-degree on T- meshes: Combinatorial bounds on the dimension.</i><br>
+D. Toshniwal, B. Mourrain and T.J.R. Hughes.<br>
+Advances in Computational Mathematics, 47, Article 16, 2021.
+<a href="https://doi.org/10.1007/s10444-020-09829-4" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>Counting the dimension of splines of mixed smoothness: A general recipe, and its applications to meshes of arbitrary topologies.</i><br>
+D. Toshniwal and M. DiPasquale.<br>
+Advances in Computational Mathematics, 47, Article 6, 2021.
+<a href="https://rdcu.be/cdJ8x" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>A general class of C<sup>1</sup> smooth rational splines: Applications to construction of exact ellipses and ellipsoids.</i><br>
+H. Speleers and D. Toshniwal.<br>
+Computer-Aided Design, 132, Article 102982, 2021.
+<a href="https://doi.org/10.1016/j.cad.2020.102982" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>The divergence-conforming immersed boundary method: Application to vesicle and capsule dynamics.</i><br>
+H.Casquero, C. Bona-Casas, D. Toshniwal, T.J.R. Hughes, H.Gomez and Y.J.Zhang.<br>
+Journal of Computational Physics, 425, Article 109872, 2021.
+<a href="https://doi.org/10.1016/j.jcp.2020.109872" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>Smooth multi-patch discretizations for Isogeometric Analysis.</i><br>
+T.J.R. Hughes, G. Sangalli, T. Takacs and D. Toshniwal.<br>
+Handbook of Numerical Analysis, 22, 2021.
+<a href="https://doi.org/10.1016/bs.hna.2020.09.002" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>Dimension of polynomial splines of mixed smoothness on T-meshes.</i><br>
+D. Toshniwal and N. Villamizar.<br>
+Computer Aided Geometric Design, 80, Article 101880, 2020.
+<a href="https://doi.org/10.1016/j.cagd.2020.101880" rel="noreferrer noopener" target="_blank">paper (open access)</a></p>
+</li>
+<li>
+<p><i>A Tchebycheffian extension of multi-degree B-splines: Algorithmic computation and properties.</i><br>
+R.R. Hiemstra, T.J.R. Hughes, C. Manni, H. Speleers and D. Toshniwal.<br>
+SIAM Journal on Numerical Analysis, 58(2), 1138-1163, 2020.
+<a href="https://epubs.siam.org/doi/abs/10.1137/19M1263583" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i> Seamless integration of design and Kirchhoff-Love shell analysis using analysis-suitable unstructured T-splines.</i><br>
+H. Casquero, X. Wei, D. Toshniwal, A. Li, T.J.R. Hughes, J. Kiendl and Y.J. Zhang.<br>
+Computer Methods in Applied Mechanics and Engineering, 360, Article 112765, 2020.
+<a href="https://www.sciencedirect.com/science/article/pii/S0045782519306577" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>Multi-degree B-splines: Algorithmic computation and properties.</i><br>
+D. Toshniwal, H. Speleers, R. Hiemstra, C. Manni and T.J.R. Hughes.<br>
+Computer Aided Geometric Design, 76, Article 101792, 2020.
+<a href="https://doi.org/10.1016/j.cagd.2019.101792" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>Polynomial splines of non-uniform degree on triangulations: Combinatorial bounds on the dimension.</i><br>
+D. Toshniwal and T.J.R. Hughes.<br>
+Computer Aided Geometric Design, 75, Article 101763, 2019.
+<a href="https://www.sciencedirect.com/science/article/pii/S0167839619300664" rel="noreferrer noopener" target="_blank">paper</a>,
+<a href="https://dtoshniwal.github.io/Macaulay2/share/doc/simplicial_splines.html" rel="noreferrer noopener" target="_blank">Macaulay2 package</a></p>
+</li>
+<li>
+<p><i>An isogeometric finite element formulation for phase fields on deforming surfaces.</i><br>
+C. Zimmermann, D. Toshniwal, C.M. Landis, T.J.R. Hughes, K. Mandadapu and R.A. Sauer.<br>
+Computer Methods in Applied Mechanics and Engineering, 351, 441-477, 2019.
+<a href="https://www.sciencedirect.com/science/article/pii/S0045782519301513" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>Blended B-spline construction on unstructured quadrilateral and hexahedral meshes with optimal convergence rates in isogeometric analysis.</i><br>
+X. Wei, Y.J. Zhang, D. Toshniwal, H. Speleers, X. Li, C. Manni, J.A. Evans and T.J.R. Hughes.<br>
+Computer Methods in Applied Mechanics and Engineering, 341, 609-639, 2018.
+<a href="https://www.sciencedirect.com/science/article/pii/S004578251830344X" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>Smooth cubic spline spaces on unstructured quadrilateral meshes with particular emphasis on extraordinary points: Geometric design and isogeometric analysis considerations.</i><br>
+D. Toshniwal, H. Speleers and T.J.R. Hughes.<br>
+Computer Methods in Applied Mechanics and Engineering, 327, 411-458, 2017.
+<a href="https://www.sciencedirect.com/science/article/pii/S0045782517305303" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>Multi-degree smooth polar splines: A framework for geometric modeling and isogeometric analysis.</i><br>
+D. Toshniwal, H. Speleers, R. Hiemstra and T.J.R. Hughes.<br>
+Computer Methods in Applied Mechanics and Engineering, 316, 1005-1061, 2017.
+<a href="https://www.sciencedirect.com/science/article/pii/S004578251631533X" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>High order geometric methods with exact conservation properties.</i><br>
+R. Hiemstra, D. Toshniwal, R.H.M. Huijsmans and M. Gerritsma.<br>
+Journal of Computational Physics 257, 1444-1471, 2014.
+<a href="https://www.sciencedirect.com/science/article/pii/S0021999113006414" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>A geometric approach towards momentum conservation.</i><br>
+D. Toshniwal, R.H.M. Huijsmans and M. Gerritsma.<br>
+Spectral and High Order Methods for Partial Differential Equations, Springer, Cham, 393-402, 2014.
+<a href="https://link.springer.com/chapter/10.1007/978-3-319-01601-6_32" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+<li>
+<p><i>The geometric basis of mimetic spectral approximations.</i><br>
+M. Gerritsma, R. Hiemstra, J. Kreeft, A. Palha, P. Rebelo and D. Toshniwal.<br>
+Spectral and High Order Methods for Partial Differential Equations, Springer, Cham, 17-35, 2014.
+<a href="https://link.springer.com/chapter/10.1007/978-3-319-01601-6_32" rel="noreferrer noopener" target="_blank">paper</a></p>
+</li>
+</ul>
+<h2 class="message" align="center">Other writings</h2>
+<ul>
+<li>
+<p><i>Structure-Preserving Finite Element Methods.</i><br>
+A. Palha and D. Toshniwal.<br>
+European Research Community on Flow, Turbulence and Combustion, Bulletin 142, 2025. <a href="https://www.ercoftac.org/publications/ercoftac_bulletin/bulletin-143/" rel="noreferrer noopener" target="_blank">link; please email me for access</a></p>
+</li>
+<li>
+<p><i>Guest editorial for special issue: Design for Advanced Manufacturing.</i><br>
+Y.F. Zhao, S. Elgeti, J. Guest, C. McComb, J. Norato and D. Toshniwal.<br>
+ASME Journal of Mechanical Design, 145, 010301, 2023.
+<a href="https://doi.org/10.1115/1.4056169" rel="noreferrer noopener" target="_blank">editorial</a></p>
+</li>
+<li>
+<p><i>Interactive design with smooth splines.</i><br>
+D. Toshniwal.<br>
+Observable.
+<a href="https://observablehq.com/@dtoshniwal/interactive-design-with-smooth-splines" rel="noreferrer noopener" target="_blank">notebook</a></p>
+</li>
+<li>
+<p><i>Isogeometric Analysis: Study of non-uniform degree and unstructured splines, and application to phase field modeling of corrosion.</i><br>
+D. Toshniwal.<br>
+PhD dissertation, The University of Texas at Austin, USA.
+<a href="http://dx.doi.org/10.26153/tsw/4799" rel="noreferrer noopener" target="_blank">thesis</a></p>
+</li>
+</ul> </div>  </main> <footer class="text-muted mt-auto flex w-full flex-col items-center justify-center gap-y-2 pt-20 pb-4 text-center align-top font-semibold sm:flex-row sm:justify-between sm:text-xs"> <div class="me-0 sm:me-4">
+&copy; Deepesh Toshniwal 2026 </div> <nav aria-labelledby="footer_links" class="sm:divide-muted flex gap-x-2 sm:gap-x-0 sm:divide-x"> <p id="footer_links" class="sr-only">More on this site</p> <a class="hover:text-global-text px-4 py-2 hover:underline sm:py-0" href="/"> Home </a><a class="hover:text-global-text px-4 py-2 hover:underline sm:py-0" href="/about/"> About </a><a class="hover:text-global-text px-4 py-2 hover:underline sm:py-0" href="/research/"> Research </a><a class="hover:text-global-text px-4 py-2 hover:underline sm:py-0" href="/teaching/"> Teaching </a><a class="hover:text-global-text px-4 py-2 hover:underline sm:py-0" href="/travel/"> Travel </a><a class="hover:text-global-text px-4 py-2 hover:underline sm:py-0" href="/photos/"> Photos </a><a class="hover:text-global-text px-4 py-2 hover:underline sm:py-0" href="/posts/"> Blog </a> </nav> </footer> <script type="speculationrules">
+			{
+				"prefetch": [
+					{
+						"where": {
+							"href_matches": "/*"
+						},
+						"eagerness": "immediate"
+					}
+				],
+				"prerender": [
+					{
+						"where": {
+							"href_matches": "/*"
+						},
+						"eagerness": "moderate"
+					}
+				]
+			}
+		</script> </body> </html>

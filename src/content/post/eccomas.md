@@ -1,0 +1,13 @@
+---
+title: "Keynote talk at ECCOMAS 2024"
+description: "Blog post from 2024-01-31"
+publishDate: "2024-01-31"
+---
+
+At the next ECCOMAS conference, I will be delivering a keynote talk as part of the minisymposium on [Isogeometric Methods](https://eccomas2024.org/event/area/4e988296-5968-11ee-a4f3-000c29ddfc0c)! The minisymposium is part of the theme Advance Discretization Methods and is organized by Ale Reali, Yuri Bazilevs, Dave Benson, Rene de Borst, Tom Hughes, Trond Kvamsdal, Giancarlo Sangalli and Clements Verhoosel. I will talk about spline-based discretizations of the de Rham complex and their applications, hope to see you there.
+
+<div class="text-center">
+<figure>
+<p><img src="/photos/de_rham.png" style="width:500px"/></p>
+</figure>
+

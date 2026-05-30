@@ -1,0 +1,15 @@
+---
+title: "NWO Veni Grant"
+description: "Blog post from 2020-11-05"
+publishDate: "2020-11-05"
+---
+
+I heard today that my proposal for the [NWO Veni](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) has been funded! Now looking forward to the research project which is going to be focused on the mathematical theory of splines and their use in simulations.
+NWO's official announcement can be [found here](https://www.nwo.nl/en/news/161-researchers-awarded-nwo-veni-grant-worth-250000-euros).
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Really, really great news! 🏆🥳 The Dutch Research Council (NWO) has awarded a Veni grant to Jesper Cockx, Matús Rybák and Deepesh Toshniwal. These highly promising young EEMCS scientists get the opportunity to further elaborate their own ideas. 💡 <a href="https://t.co/4xQEBeL1Gc">https://t.co/4xQEBeL1Gc</a> <a href="https://t.co/Cr905oi3Vg">https://t.co/Cr905oi3Vg</a></p>&mdash; EEMCS TU Delft (@EEMCS_TUD) <a href="https://twitter.com/EEMCS_TUD/status/1324316280523005954?ref_src=twsrc%5Etfw">November 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<!--
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">162 researchers awarded a NWO Veni grant. The laureates will conduct research on a variety of subjects such as methods for 3D microscopy of human brain tissue, metabolic potentiation of vaccine, kidney sales among migrants and CO2 storage in lakes: <a href="https://t.co/MGpw84NXHM">https://t.co/MGpw84NXHM</a> <a href="https://t.co/W1u7VGNVem">pic.twitter.com/W1u7VGNVem</a></p>&mdash; NWO (@NWONieuws) <a href="https://twitter.com/NWONieuws/status/1324261236125638664?ref_src=twsrc%5Etfw">November 5, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+-->

@@ -1,0 +1,7 @@
+---
+title: "Plenary lecture at SMART 2025"
+description: "Blog post from 2025-01-20"
+publishDate: "2025-01-20"
+---
+
+I am honored to have been invited to deliver a plenary lecture at the fourth international conference on [Subdivision, Geometric and Algebraic Methods, Isogeometric Analysis and Refinability](https://smart2025.unirc.it/) being organized in Reggio Calabria in September 2025! Many thanks to the organizers and hope to see you there.
