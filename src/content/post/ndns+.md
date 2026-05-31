@@ -1,5 +1,5 @@
 ---
-title: "NDNS+ Special Activity Group: Structure-preserving n..."
+title: "NDNS+ Special Activity Group: Structure-preserving numerical methods"
 description: "Blog post from 2025-10-01"
 publishDate: "2025-10-01"
 ---

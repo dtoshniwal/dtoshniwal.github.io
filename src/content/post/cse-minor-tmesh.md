@@ -1,5 +1,5 @@
 ---
-title: "CSE minor: Ayush Patandin, Cees Wolfs, Fredrik Rhenm..."
+title: "CSE minor: Ayush Patandin, Cees Wolfs, Fredrik Rhenman, Laurens Toet, Mohamed Rashad"
 description: "Blog post from 2021-02-14"
 publishDate: "2021-02-14"
 ---

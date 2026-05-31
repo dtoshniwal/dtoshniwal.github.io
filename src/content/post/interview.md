@@ -1,5 +1,5 @@
 ---
-title: "In conversation with: Interview series with numerica..."
+title: "In conversation with: Interview series with numerical analysts"
 description: "Blog post from 2021-01-31"
 publishDate: "2021-01-31"
 ---

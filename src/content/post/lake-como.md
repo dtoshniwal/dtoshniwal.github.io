@@ -1,5 +1,5 @@
 ---
-title: "Lake Como Summer School on 'Isogeometric Analysis: t..."
+title: "Lake Como Summer School on Isogeometric Analysis: theory, applications, and new trends"
 description: "Blog post from 2024-01-01"
 publishDate: "2024-01-01"
 ---

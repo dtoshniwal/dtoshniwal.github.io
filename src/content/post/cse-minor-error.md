@@ -1,5 +1,5 @@
 ---
-title: "CSE minor: Chao Chen, Tan Nguyen, Tom van der Wee, A..."
+title: "CSE minor: Chao Chen, Tan Nguyen, Tom van der Wee, Alvaro Baillet Bolivar, Gleb Martjanovs, Peter Schaefers"
 description: "Blog post from 2023-01-16"
 publishDate: "2023-01-16"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "CSE minor: Pelle Mutsaers, Aleksandra Taneva, Teun S..."
+title: "CSE minor: Pelle Mutsaers, Aleksandra Taneva, Teun Schuur, Daisy de Blom, Pablo Fernandez, Wiktor Cupial"
 description: "Blog post from 2025-01-16"
 publishDate: "2025-01-16"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Keynote talk at INdAM workshop on Fast Methods for I..."
+title: "Keynote talk at INdAM workshop on Fast Methods for Isogeometric Analysis"
 description: "Blog post from 2024-11-16"
 publishDate: "2024-11-16"
 ---
