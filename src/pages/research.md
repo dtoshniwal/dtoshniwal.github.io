@@ -79,8 +79,8 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.<br>
 
 * <i>Structure-preserving variational multiscale stabilization for the incompressible Navier-Stokes equations.</i><br>
 K. Dijkstra and D. Toshniwal.<br>
-Computer Methods in Applied Mechanics and Engineering (to appear), 2026.
-[arXiv:2512.14231 (math.NA)](https://arxiv.org/abs/2512.14231)
+Computer Methods in Applied Mechanics and Engineering, 461A, Article 119138, 2026.
+[paper (open access)](https://doi.org/10.1016/j.cma.2026.119138)
 
 * <i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i><br>
 D. Cabanas, K. Shepherd, D. Toshniwal and R. Vazquez.<br>
