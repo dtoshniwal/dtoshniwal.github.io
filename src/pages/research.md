@@ -60,6 +60,10 @@ Some open projects can be found on [this list on Kees Vuik's webpage](https://di
 
 <h3 align="center">Preprints</h3>
 
+* <i>Adaptively-refinable polar-spline discrete differential forms: hierarchical construction, exactness, and
+applications.</i><br>
+D. Cabanas, D. Toshniwal and R. Vazquez.
+
 * <i>Weakly-C<sup>1</sup> solutions to the biharmonic problem on multi-patch domains.</i><br>
 J. Dekker, A. Palha and D. Toshniwal.
 
