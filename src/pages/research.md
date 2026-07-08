@@ -67,9 +67,6 @@ D. Cabanas, D. Toshniwal and R. Vazquez.
 * <i>Weakly-C<sup>1</sup> solutions to the biharmonic problem on multi-patch domains.</i><br>
 J. Dekker, A. Palha and D. Toshniwal.
 
-* <i>Isogeometric discrete differential forms with Tchebycheffian B-splines.</i><br>
-C. Manni, H. Speleers and D. Toshniwal.
-
 * <i>Isogeometric de Rham complex discretization in solid toroidal domains.</i><br>
 F. Patrizi and D. Toshniwal.<br>
 [arXiv:2106.10470 (math.NA)](https://arxiv.org/abs/2106.10470)
@@ -80,6 +77,10 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.<br>
 
 
 <h3 align="center">Published/Accepted</h3>
+
+* <i>Isogeometric discrete differential forms with Tchebycheffian B-splines.</i><br>
+C. Manni, H. Speleers and D. Toshniwal.<br>
+Journal of Computational Physics (accepted), 2026.
 
 * <i>Structure-preserving variational multiscale stabilization for the incompressible Navier-Stokes equations.</i><br>
 K. Dijkstra and D. Toshniwal.<br>
