@@ -80,7 +80,8 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.<br>
 
 * <i>Isogeometric discrete differential forms with Tchebycheffian B-splines.</i><br>
 C. Manni, H. Speleers and D. Toshniwal.<br>
-Journal of Computational Physics (accepted), 2026.
+Journal of Computational Physics, Article 115195, 2026.
+[paper (open access)](https://doi.org/10.1016/j.jcp.2026.115195)
 
 * <i>Structure-preserving variational multiscale stabilization for the incompressible Navier-Stokes equations.</i><br>
 K. Dijkstra and D. Toshniwal.<br>
