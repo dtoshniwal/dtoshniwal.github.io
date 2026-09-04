@@ -60,6 +60,9 @@ Some open projects can be found on [this list on Kees Vuik's webpage](https://di
 
 <h3 align="center">Preprints</h3>
 
+* <i>A stable discretization for periodic solutions of the three-dimensional linear shallow water equations.</i><br>
+C.R. van Ooijen, Y.M. Dijkstra, H.M. Schuttelaars and D. Toshniwal.
+
 * <i>Reinforcement Learning to Choose Optimizers.</i><br>
 M. van der Schelling, D. Toshniwal and M. Bessa.<br>
 [arXiv:2609.01811 (cs.NE)](https://arxiv.org/abs/2609.01811)
