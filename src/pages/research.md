@@ -66,7 +66,8 @@ M. van der Schelling, D. Toshniwal and M. Bessa.<br>
 
 * <i>Adaptively-refinable polar-spline discrete differential forms: hierarchical construction, exactness, and
 applications.</i><br>
-D. Cabanas, D. Toshniwal and R. Vazquez.
+D. Cabanas, D. Toshniwal and R. Vazquez.<br>
+[arXiv:2609.03461 (math.NA)](https://arxiv.org/abs/2609.03461)
 
 * <i>Weakly-C<sup>1</sup> solutions to the biharmonic problem on multi-patch domains.</i><br>
 J. Dekker, A. Palha and D. Toshniwal.
