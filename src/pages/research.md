@@ -85,7 +85,8 @@ Y. Zhang, A. Palha, A. Brugnoli, D. Toshniwal and M. Gerritsma.<br>
 
 * <i>Weakly-C<sup>1</sup> solutions to the biharmonic problem on multi-patch domains.</i><br>
 J. Dekker, A. Palha and D. Toshniwal.<br>
-Journal of Computational and Applied Mathematics (accepted), 2026.
+Journal of Computational and Applied Mathematics, Article 118179, 2026.
+[paper (open access)](https://doi.org/10.1016/j.cam.2026.118179)
 
 * <i>Isogeometric discrete differential forms with Tchebycheffian B-splines.</i><br>
 C. Manni, H. Speleers and D. Toshniwal.<br>
