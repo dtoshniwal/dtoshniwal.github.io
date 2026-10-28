@@ -101,7 +101,7 @@ Computer Methods in Applied Mechanics and Engineering, 461A, Article 119138, 202
 * <i>Construction of exact refinements for the two-dimensional HB/THB-spline de Rham complex.</i><br>
 D. Cabanas, K. Shepherd, D. Toshniwal and R. Vazquez.<br>
 SIAM Journal of Scientific Computing (to appear), 2026.
-[arXiv:2502.19542 (math.NA)](https://arxiv.org/abs/2502.19542)
+[paper (open access)](https://doi.org/10.1137/25M1778924)
 
 * <i>Macro-element refinement schemes for THB-splines: Applications to Bézier projection and structure-preserving discretizations.</i><br>
 K. Dijkstra, C. Giannelli and D. Toshniwal.<br>
